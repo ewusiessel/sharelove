@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import erroimg from "../../images/error-404.png";
 import "./style.css";
 
 const Error = (props) => {
@@ -9,7 +10,9 @@ const Error = (props) => {
         <div className="row">
           <div className="col col-xs-12">
             <div className="content clearfix">
-              <div className="error">{/* <img src={} alt="" /> */}</div>
+              <div className="error">
+                <img src={erroimg} alt="" />
+              </div>
               <div className="error-message">
                 <h3>Oops! Page Not Found!</h3>
                 <p>
