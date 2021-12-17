@@ -1,12 +1,12 @@
 /*--------------------------------------------------------------
  #10.0 tp-blog-pg-section
 --------------------------------------------------------------*/
-.tp-blog-pg-section {
-  /*** format-standard ***/
-  /*** format-gallery ***/
-  /*** format-quote ***/
-  /*** format-video ***/
-}
+/* .tp-blog-pg-section { */
+/*** format-standard ***/
+/*** format-gallery ***/
+/*** format-quote ***/
+/*** format-video ***/
+/* } */
 
 .tp-blog-pg-section .tp-tp-blog-content .post {
   margin-bottom: 40px;
