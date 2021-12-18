@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import VideoModal from "../ModalVideo";
 import "./style.css";
+import abimg2 from "../../images/img-1.png";
 
 const About = (props) => {
   const ClickHandler = () => {
@@ -36,7 +37,7 @@ const About = (props) => {
                 </div>
               </div>
               <div className="signature">
-                {/* <img src={} alt="" /> */}
+                <img src={abimg2} alt="" />
               </div>
             </div>
           </div>
