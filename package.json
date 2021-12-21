@@ -17,6 +17,7 @@
     "react-toastify": "^8.1.0",
     "reactstrap": "^9.0.1",
     "simple-react-validator": "^1.6.1",
+    "slick": "^1.12.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
