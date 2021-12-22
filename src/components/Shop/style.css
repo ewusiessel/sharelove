@@ -61,7 +61,7 @@
 }
 
 .shop-section .details h3 a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .shop-section .details del {
@@ -82,9 +82,9 @@
   font-size: 13px;
   font-size: 0.8125rem;
   font-weight: 600;
-  color: #f67d4a;
+  color: #fdd42d;
   padding: 12px 20px;
-  border: 2px solid #f67d4a;
+  border: 2px solid #fdd42d;
   display: inline-block;
   border-radius: 50px;
 }
@@ -98,7 +98,7 @@
 }
 
 .shop-section .add-to-cart a:hover {
-  background-color: #f67d4a;
+  background-color: #fdd42d;
   color: #fff;
 }
 
@@ -110,6 +110,6 @@
 }
 
 .shop-section .grid:hover .add-to-cart a {
-  background-color: #f67d4a;
+  background-color: #fdd42d;
   color: #fff;
 }

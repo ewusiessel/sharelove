@@ -14,7 +14,7 @@ const HeaderTopbar = () => {
                   <i className="fi flaticon-call"></i>+000123456789
                 </li>
                 <li>
-                  <i className="fi flaticon-envelope"></i> sadakat@gmail.com
+                  <i className="fi flaticon-envelope"></i> sharlove@gmail.com
                 </li>
               </ul>
             </div>

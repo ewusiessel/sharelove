@@ -96,7 +96,7 @@
 }
 
 .tp-blog-single-section .entry-meta li a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .tp-blog-single-section .entry-meta > li:first-child {
@@ -289,7 +289,7 @@
 }
 
 .tp-blog-single-section .tag-share .tag a:hover {
-  background-color: #f67d4a;
+  background-color: #fdd42d;
   color: #fff;
 }
 
@@ -308,9 +308,9 @@
 }
 
 .tp-blog-single-section .tag-share .share a:hover {
-  background: #f67d4a;
+  background: #fdd42d;
   color: #fff;
-  border-color: #f67d4a;
+  border-color: #fdd42d;
 }
 
 .tp-blog-single-section .author-box {
@@ -389,7 +389,7 @@
 }
 
 .tp-blog-single-section .author-box .social-link a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .tp-blog-single-section .more-posts {
@@ -425,7 +425,7 @@
 
 .tp-blog-single-section .more-posts .previous-post a:hover,
 .tp-blog-single-section .more-posts .next-post a:hover {
-  background-color: #f67d4a;
+  background-color: #fdd42d;
   color: #fff;
 }
 
@@ -521,7 +521,7 @@
 
 .tp-blog-single-section .comments-area .comment-reply-link {
   font-size: 16px;
-  color: #f67d4a;
+  color: #fdd42d;
   display: inline-block;
   border-radius: 50px;
   display: inline-block;
@@ -590,7 +590,7 @@
 .tp-blog-single-section .comment-respond form textarea:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #f67d4a;
+  border-color: #fdd42d;
 }
 
 @media (max-width: 991px) {
@@ -650,7 +650,7 @@
 
 .tp-blog-single-section .comment-respond .form-submit input {
   max-width: 120px;
-  background: #f67d4a;
+  background: #fdd42d;
   color: #fff;
   font-weight: 500;
   margin-bottom: 0;
@@ -685,7 +685,7 @@
 }
 
 .author-btn a:hover {
-  background-color: #f67d4a;
+  background-color: #fdd42d;
   color: #fff;
 }
 .tp-counter-area.v2 {

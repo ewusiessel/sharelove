@@ -17,7 +17,7 @@ ul.smothscroll a {
   background-size: 200%, 1px;
   background-position: 0;
   border-radius: 50%;
-  border: 2px solid #f67d4a;
+  border: 2px solid #fdd42d;
 }
 ul.smothscroll a:hover {
   background: rgb(246, 125, 74);

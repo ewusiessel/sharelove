@@ -1,6 +1,6 @@
 .topbar {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid #474350;
+  background: #fff;
 }
 
 @media (max-width: 991px) {
@@ -57,15 +57,15 @@
 }
 
 .topbar .contact-info ul li a {
-  color: #fff;
+  color: #474350;
 }
 
 .topbar .contact-info ul li a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .topbar ul li {
-  color: #fff;
+  color: #474350;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
