@@ -54,7 +54,7 @@
 
 .case-bb-text ul li:before {
   content: "";
-  background: #fdd42d;
+  background: #f67d4a;
   width: 8px;
   height: 8px;
   position: absolute;
@@ -111,7 +111,7 @@
 .tp-donations-amount input:focus,
 .tp-donations-details input:focus,
 .tp-donations-details textarea:focus {
-  border-color: #fdd42d;
+  border-color: #f67d4a;
 }
 
 .payment-name ul li input {

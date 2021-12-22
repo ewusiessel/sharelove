@@ -33,7 +33,7 @@
 .shop-item.single .shop-info > .price-num {
   display: block;
   width: 100%;
-  color: #fdd42d;
+  color: #f67d4a;
   font-size: 18px;
   font-weight: 500;
   margin-top: 20px;
@@ -95,7 +95,7 @@
   transition: all 0.3s;
 }
 .shop-item.single .shop-info .btn-style2:hover {
-  background: #fdd42d;
+  background: #f67d4a;
   color: #fff;
 }
 

@@ -45,7 +45,7 @@
 .tp-donations-amount input:focus,
 .tp-donations-details input:focus,
 .tp-donations-details textarea:focus {
-  border-color: #fdd42d;
+  border-color: #f67d4a;
 }
 
 .payment-name ul li input {
@@ -180,7 +180,7 @@
 }
 
 .tp-payment-area .form-style input:focus {
-  border: 1px solid #fdd42d;
+  border: 1px solid #f67d4a;
 }
 
 .tp-payment-area .contact-form {

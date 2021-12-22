@@ -96,7 +96,7 @@
 }
 
 .tp-blog-pg-section .entry-meta li a:hover {
-  color: #fdd42d;
+  color: #f67d4a;
 }
 
 .tp-blog-pg-section .entry-meta > li:first-child {
@@ -152,7 +152,7 @@
 }
 
 .tp-blog-pg-section .post h3 a:hover {
-  color: #fdd42d;
+  color: #f67d4a;
 }
 
 .tp-blog-pg-section .post p {
@@ -168,7 +168,7 @@
 
 .tp-blog-pg-section .post .read-more {
   font-weight: 600;
-  color: #fdd42d;
+  color: #f67d4a;
   font-size: 18px;
 }
 
@@ -207,7 +207,7 @@
   .owl-controls
   .owl-nav
   [class*="owl-"]:hover {
-  background: #fdd42d;
+  background: #f67d4a;
   color: #fff;
 }
 

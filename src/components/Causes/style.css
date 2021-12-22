@@ -78,7 +78,7 @@
 }
 
 .cause-text h3 a:hover {
-  color: #fdd42d;
+  color: #f67d4a;
 }
 
 .cause-item:before {
@@ -86,7 +86,7 @@
   left: 0;
   top: 0;
   height: 0%;
-  border-left: 3px solid #fdd42d;
+  border-left: 3px solid #f67d4a;
   content: "";
   transition: all 0.8s;
   z-index: 11;
@@ -97,7 +97,7 @@
   right: 0;
   bottom: 0;
   height: 0%;
-  border-right: 3px solid #fdd42d;
+  border-right: 3px solid #f67d4a;
   content: "";
   transition: all 0.5s;
   z-index: 11;
@@ -121,7 +121,7 @@
   right: 0;
   top: 0;
   width: 0;
-  border-top: 3px solid #fdd42d;
+  border-top: 3px solid #f67d4a;
   content: "";
   transition: all 0.7s;
   z-index: 11;
@@ -132,7 +132,7 @@
   left: 0;
   bottom: 0;
   width: 0;
-  border-top: 3px solid #fdd42d;
+  border-top: 3px solid #f67d4a;
   content: "";
   transition: all 0.3s;
   z-index: 11;

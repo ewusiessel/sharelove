@@ -125,7 +125,7 @@ img {
 .contact-validation-active #loader i {
   font-size: 30px;
   font-size: 1.875rem;
-  color: #fdd42d;
+  color: #f67d4a;
   display: inline-block;
   -webkit-animation: rotating linear 2s infinite;
   animation: rotating linear 2s infinite;
@@ -238,7 +238,7 @@ img {
 .tp-section-title span {
   font-size: 18px;
   font-weight: 400;
-  color: #fdd42d;
+  color: #f67d4a;
   display: block;
   margin-bottom: 10px;
   font-family: "Rubik", sans-serif;
@@ -303,7 +303,7 @@ img {
 .theme-btn-s2:active,
 .theme-btn-s4:active,
 .theme-btn-s3:active {
-  background-color: #fdd42d;
+  background-color: #f67d4a;
   color: #fff;
 }
 
@@ -384,7 +384,7 @@ img {
 }
 
 .social-links li a:hover {
-  background-color: #fdd42d;
+  background-color: #f67d4a;
 }
 
 /*** back to top **/
@@ -393,7 +393,7 @@ img {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  border: 2px solid #fdd42d;
+  border: 2px solid #f67d4a;
   border-radius: 45px;
   text-align: center;
   display: none;
@@ -417,7 +417,7 @@ img {
 }
 
 .back-to-top:hover {
-  background-color: #fdd42d;
+  background-color: #f67d4a;
 }
 
 .back-to-top i {
@@ -439,7 +439,7 @@ img {
   right: -20px;
   width: 35px;
   height: 35px;
-  background: #fdd42d;
+  background: #f67d4a;
   border-radius: 50%;
 }
 
@@ -455,7 +455,7 @@ img {
 }
 
 .cBtnTheme {
-  background: #fdd42d;
+  background: #f67d4a;
 }
 
 .fixed-navbar {
