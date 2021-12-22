@@ -238,7 +238,7 @@ img {
 .tp-section-title span {
   font-size: 18px;
   font-weight: 400;
-  color: #f67d4a;
+  color: #fdd42d;
   display: block;
   margin-bottom: 10px;
   font-family: "Rubik", sans-serif;
@@ -303,7 +303,7 @@ img {
 .theme-btn-s2:active,
 .theme-btn-s4:active,
 .theme-btn-s3:active {
-  background-color: #f67d4a;
+  background-color: #fdd42d;
   color: #fff;
 }
 
