@@ -199,7 +199,7 @@ header.fixed .header-content {
 }
 .header-style-2,
 .header-style-3 {
-  background: rgba(255, 255, 255, 0.05);
+  background: #474350;
   position: relative;
   z-index: 9999;
 }
