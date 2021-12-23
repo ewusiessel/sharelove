@@ -34,7 +34,7 @@ class Hero extends Component {
                 <div className="col col-lg-6 slide-caption">
                   <div className="slide-title">
                     <h2>
-                      Let’s be Kind for <span>Children</span>
+                      Let’s be Kind for <span>Children #1</span>
                     </h2>
                   </div>
                   <div className="slide-subtitle">
@@ -62,7 +62,7 @@ class Hero extends Component {
                 <div className="col col-lg-6 slide-caption">
                   <div className="slide-title">
                     <h2>
-                      Let’s be Kind for <span>Children</span>
+                      Let’s be Kind for <span>Children #2</span>
                     </h2>
                   </div>
                   <div className="slide-subtitle">
@@ -90,7 +90,7 @@ class Hero extends Component {
                 <div className="col col-lg-6 slide-caption">
                   <div className="slide-title">
                     <h2>
-                      Let’s be Kind for <span>Children</span>
+                      Let’s be Kind for <span>Children #3</span>
                     </h2>
                   </div>
                   <div className="slide-subtitle">

@@ -38,7 +38,7 @@
 
 .hero .slick-prev,
 .hero .slick-next {
-  background-color: rgb(248, 127, 75, .5);
+  background-color: rgb(253, 212, 45, 0.5);
   width: 55px;
   height: 55px;
   z-index: 10;
@@ -52,7 +52,7 @@
 
 .hero .slick-prev:hover,
 .hero .slick-next:hover {
-  background-color: rgb(248, 127, 75);
+  background-color: rgb(253, 212, 45);
 }
 
 @media (max-width: 991px) {
@@ -212,7 +212,7 @@
 }
 
 .hero-style-1 .slide .slide-caption h2 span {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 @media (max-width: 1199px) {

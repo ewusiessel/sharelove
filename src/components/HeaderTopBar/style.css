@@ -111,6 +111,7 @@
   .topbar .contact-info ul li {
     float: left;
   }
+
 }
 
 .topbar ul > li + li + li {
@@ -129,6 +130,7 @@
   font-size: 16px;
   font-weight: 600;
   color: #fff !important;
+
 }
 
 .topbar ul .fi {
@@ -142,6 +144,7 @@
   font-size: 15px;
   font-size: 1rem;
   color: #fff;
+
 }
 
 .topbar ul .fi:before {
@@ -163,4 +166,5 @@
 
 .navigation ul {
   list-style: none;
+
 }
