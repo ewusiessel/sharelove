@@ -301,8 +301,8 @@
 .instagram ul li img {
   width: 100%;
 } */
-/* TODO consider removing 🔝 */
-/* NOTE instagram style.css */
+
+/* TODO clean up code */
 
 @media (max-width: 1200px) {
   .tp-site-footer .news-text h3 {
