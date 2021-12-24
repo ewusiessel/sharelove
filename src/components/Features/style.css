@@ -5,7 +5,8 @@
   background: #f5f5f5;
   padding: 57px 70px 30px 56px;
   transition: all 0.5s;
-  border: 1px solid #333030;
+  /* border: 1px solid #333030; */
+  /* TODO clean up code */
 }
 
 ul {
@@ -36,7 +37,7 @@ ul {
 .features-area .features-item-2 {
   margin-bottom: 30px;
   padding: 20px 0 25px;
-  background: #202120;
+  background: #fdd42d;
 }
 
 .features-area .features-content p a:hover {
@@ -44,7 +45,7 @@ ul {
 }
 
 .features-content h3 {
-  color: #c3bfbf;
+  color: #474350;
   font-size: 24px;
   margin-top: 5px;
 }
@@ -58,12 +59,13 @@ ul {
   padding: 0;
   width: 100px;
   height: 90px;
-  background: #202120;
+  /* background: #202120; */
   line-height: 85px;
   text-align: center;
   margin-right: 20px;
-  color: #c3bfbf;
+  color: #474350;
   margin-left: 15px;
+  /* TODO clean up code */
 }
 
 .features-area .features-content p {
