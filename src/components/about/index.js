@@ -23,8 +23,14 @@ const About = (props) => {
               <div className="section-title">
                 <h2>About Us</h2>
               </div>
-              <p></p>
-              <p></p>
+              <p>
+                Est consequat nostrud elit est eu labore aliquip ad proident
+                fugiat labore. Incididunt ea do qui consequat nulla cupidatat
+                laboris minim commodo reprehenderit. Consectetur laboris veniam
+                adipisicing id elit cillum exercitation. Consequat proident
+                ullamco incididunt amet.
+              </p>
+              <p>Enim velit pariatur amet ullamco exercitation.</p>
               <div className="btns">
                 <div>
                   <Link

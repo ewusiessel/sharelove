@@ -47,7 +47,7 @@
   padding: 10px 20px;
   background: #202120;
   margin-right: 15px;
-  border-radius: 30px;
+  border-radius: 5px;
   color: #fff;
   font-weight: 600;
   box-shadow: 0 0 7px #101010;
@@ -78,10 +78,10 @@
 }
 
 .cause-text h3 a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
-.cause-item:before {
+/* .cause-item:before {
   position: absolute;
   left: 0;
   top: 0;
@@ -101,7 +101,7 @@
   content: "";
   transition: all 0.5s;
   z-index: 11;
-}
+} */
 
 .cause-item:hover:before {
   height: 100%;
@@ -116,7 +116,7 @@
   position: relative;
 }
 
-.cause-top:after {
+/* .cause-top:after {
   position: absolute;
   right: 0;
   top: 0;
@@ -136,7 +136,7 @@
   content: "";
   transition: all 0.3s;
   z-index: 11;
-}
+} */
 
 .cause-item:hover .cause-top:after,
 .cause-item:hover .cause-text:after {

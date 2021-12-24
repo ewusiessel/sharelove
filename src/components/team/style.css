@@ -56,15 +56,16 @@
 }
 
 .team-section .img-holder {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  /* border-top-right-radius: 20px;
+  border-top-left-radius: 20px; */
   overflow: hidden;
   position: relative;
 }
 
 .team-section .img-holder img {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  /* border-top-right-radius: 20px;
+  border-top-left-radius: 20px; */
+  /* TODO clean up */
   transform: scale(1);
   transition: all 0.3s;
 }

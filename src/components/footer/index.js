@@ -20,7 +20,7 @@ const Footer = (props) => {
       <div className="tp-site-footer">
         <div className="tp-upper-footer">
           <div className="container">
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                 <div className="widget about-widget">
                   <div className="logo widget-title">
@@ -129,8 +129,8 @@ const Footer = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
-                {/* <div className="widget instagram">
+
+              {/* <div className="widget instagram">
                   <div className="widget-title">
                     <h3>Instagram</h3>
                   </div>
@@ -167,8 +167,7 @@ const Footer = (props) => {
                     </li>
                   </ul>
                 </div> */}
-                {/* TODO remove commented out instagram-widget */}
-              </div>
+              {/* TODO remove commented out instagram-widget */}
             </div>
           </div>
         </div>
