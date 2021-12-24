@@ -47,12 +47,17 @@ nav ul li a {
   position: relative;
   padding: 40px 25px;
 }
+
+nav ul li a:hover {
+  color: #fdd42d !important;
+}
+
 nav ul li a:before {
   content: "";
   background: rgba(255, 255, 255, 0.1);
+  /* NOTE background box hover on header menu */
   width: 100%;
   height: 43px;
-  border-radius: 43px;
   position: absolute;
   left: 0;
   top: calc(50% - 21px);
@@ -77,8 +82,9 @@ nav ul li:hover > ul li {
 }
 nav ul li a:hover,
 nav ul li a.active {
-  color: #fdd42d;
+  color: #fff !important;
   text-decoration: none;
+  /* TODO resolve or ignore conflict with navigation menu hover and active colours*/
 }
 
 nav ul ul {
@@ -95,7 +101,7 @@ nav ul ul {
 }
 nav ul ul li {
   padding: 10px 15px;
-  background-color: #202120;
+  background-color: #fdd42d;
   border-bottom: 1px solid #292929;
   margin-top: 20px;
   position: relative;
@@ -110,7 +116,7 @@ nav ul ul li i {
 }
 nav ul ul li a {
   padding: 5px;
-  color: #fff;
+  color: #474350;
 }
 nav ul ul li:last-child {
   border-bottom: 0;
@@ -328,7 +334,7 @@ header.fixed .header-content {
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #202120;
+  background: #fff;
 }
 
 @media (max-width: 450px) {
@@ -361,7 +367,7 @@ header.fixed .header-content {
 
 .header-style-2 .cart-search-contact .mini-cart-content,
 .header-style-3 .cart-search-contact .mini-cart-content {
-  background: #202120;
+  background: #fff;
   width: 300px;
   z-index: 10;
   position: absolute;
@@ -419,7 +425,7 @@ header.fixed .header-content {
 .header-style-3 .cart-search-contact .mini-cart-content .mini-cart-item {
   padding-top: 15px;
   margin-top: 15px;
-  border-top: 1px solid #292929;
+  border-top: 0.5px solid #c3bfbf;
 }
 
 .header-style-2
@@ -439,7 +445,6 @@ header.fixed .header-content {
 .header-style-3 .cart-search-contact .mini-cart-content .mini-cart-item-image {
   width: 50px;
   height: 50px;
-  border: 2px solid #292929;
   float: left;
   margin-right: 15px;
 }
@@ -473,7 +478,7 @@ header.fixed .header-content {
   font-size: 0.93333rem;
   font-weight: 600;
   text-align: left;
-  color: #fff;
+  color: #474350;
 }
 
 .header-style-2
@@ -518,7 +523,7 @@ header.fixed .header-content {
   .mini-cart-item-quantity {
   font-size: 12px;
   font-size: 0.8rem;
-  color: #fff;
+  color: #fdd42d;
   display: block;
   position: absolute;
   right: 0;
@@ -528,7 +533,7 @@ header.fixed .header-content {
 .header-style-2 .cart-search-contact .mini-cart-content .mini-cart-action,
 .header-style-3 .cart-search-contact .mini-cart-content .mini-cart-action {
   padding: 20px 0 30px;
-  border-top: 1px solid #292929;
+  border-top: 0.5px solid #c3bfbf; /* NOTE line in basket view drop download */
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -561,7 +566,7 @@ header.fixed .header-content {
   font-size: 18px;
   font-size: 1.2rem;
   font-weight: 600;
-  color: #fff;
+  color: #474350;
   display: inline-block;
   padding-left: 30px;
 }
