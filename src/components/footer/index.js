@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../images/logo.png";
-import n1 from "../../images/instragram/1.jpg";
-import n2 from "../../images/instragram/2.jpg";
-import n3 from "../../images/instragram/3.jpg";
-import n4 from "../../images/instragram/4.jpg";
-import n5 from "../../images/instragram/5.jpg";
-import n6 from "../../images/instragram/6.jpg";
+// import n1 from "../../images/instragram/1.jpg";
+// import n2 from "../../images/instragram/2.jpg";
+// import n3 from "../../images/instragram/3.jpg";
+// import n4 from "../../images/instragram/4.jpg";
+// import n5 from "../../images/instragram/5.jpg";
+// import n6 from "../../images/instragram/6.jpg";
+// TODO remove commented out instagram images
 import "./style.css";
 
 const Footer = (props) => {
@@ -129,7 +130,7 @@ const Footer = (props) => {
                 </div>
               </div>
               <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
-                <div className="widget instagram">
+                {/* <div className="widget instagram">
                   <div className="widget-title">
                     <h3>Instagram</h3>
                   </div>
@@ -165,7 +166,8 @@ const Footer = (props) => {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
+                {/* TODO remove commented out instagram-widget */}
               </div>
             </div>
           </div>

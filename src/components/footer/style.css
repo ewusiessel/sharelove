@@ -157,11 +157,11 @@
 
 .tp-site-footer .about-widget ul a:hover,
 .tp-site-footer-2 .about-widget ul a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .tp-site-footer-2 .about-widget ul a {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .tp-site-footer .link-widget,
@@ -284,7 +284,7 @@
   text-decoration: underline;
 }
 
-.instagram ul {
+/* .instagram ul {
   display: flex;
   flex-wrap: wrap;
   margin: 0px -3px;
@@ -300,7 +300,9 @@
 
 .instagram ul li img {
   width: 100%;
-}
+} */
+/* TODO consider removing 🔝 */
+/* NOTE instagram style.css */
 
 @media (max-width: 1200px) {
   .tp-site-footer .news-text h3 {
