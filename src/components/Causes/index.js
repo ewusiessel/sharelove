@@ -59,7 +59,7 @@ const Causes = (props) => {
                 </ul>
                 <h3>
                   <Link onClick={ClickHandler} to="/case-single">
-                    Financial Help for Poor Families
+                    Financial Help for Families
                   </Link>
                 </h3>
                 <p>

@@ -34,7 +34,7 @@
 .contact-pg-contact-section .icon i {
   font-size: 20px;
   font-size: 1.25rem;
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .contact-pg-contact-section .contact-details h5 {
@@ -61,10 +61,10 @@
 
 .contact-pg-contact-section .contact-form input,
 .contact-pg-contact-section .contact-form textarea {
-  background: #202120;
+  background: #fff;
   width: 100%;
   height: 45px;
-  border: 1px solid transparent;
+  border: 0.5px solid #c3bfbf;
   color: #898888;
   border-radius: 0;
   padding: 6px 18px;
