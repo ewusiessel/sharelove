@@ -52,6 +52,7 @@
 }
 
 .tp-blog-sidebar .widget h3 {
+  color: #fff;
   font-size: 20px;
   font-weight: 600;
   border-bottom: 1px solid #2e2c2c;
@@ -71,7 +72,7 @@
 
 .tp-blog-sidebar .search-widget input {
   height: 50px;
-  font-size: 18px;
+  font-size: 16px;
   border: 1px solid #2e2c2c;
   padding: 6px 50px 6px 20px;
   border-radius: 0;
@@ -82,7 +83,7 @@
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
   transition: all 0.3s;
-  background: #202120;
+  background: #fff;
 }
 
 .tp-blog-sidebar .search-widget input:focus {
@@ -148,11 +149,11 @@
 }
 
 .tp-blog-sidebar .category-widget ul a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .tp-blog-sidebar .category-widget ul li:hover:before {
-  background: #f67d4a;
+  background: #fdd42d;
 }
 
 .tp-blog-sidebar .recent-post-widget .post {
@@ -202,7 +203,7 @@
 }
 
 .tp-blog-sidebar .recent-post-widget .post h4 a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .tp-blog-sidebar .recent-post-widget .post .details .date {
@@ -343,13 +344,13 @@
   color: #898888;
   border: 0;
   display: block;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 
 .pagination-wrapper .pg-pagination .active a,
 .pagination-wrapper .pg-pagination li a:hover {
-  background: #f67d4a;
-  border-color: #f67d4a;
+  background: #fdd42d;
+  border-color: #fdd42d;
   color: #fff;
 }
 
@@ -472,11 +473,11 @@ category sidebar
 }
 
 .category-sidebar .category-widget ul a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .category-sidebar .category-widget ul li:hover:before {
-  background: #f67d4a;
+  background: #fdd42d;
 }
 
 .category-sidebar .tag-widget {
@@ -518,19 +519,19 @@ category sidebar
 }
 
 .category-sidebar .tag-widget ul a:hover {
-  background: #f67d4a;
-  background: -webkit-linear-gradient(left, #f67d4a, #3a9ce0);
-  background: -moz-linear-gradient(left, #f67d4a, #3a9ce0);
-  background: -o-linear-gradient(left, #f67d4a, #3a9ce0);
-  background: -ms-linear-gradient(left, #f67d4a, #3a9ce0);
+  background: #fdd42d;
+  background: -webkit-linear-gradient(left, #fdd42d, #3a9ce0);
+  background: -moz-linear-gradient(left, #fdd42d, #3a9ce0);
+  background: -o-linear-gradient(left, #fdd42d, #3a9ce0);
+  background: -ms-linear-gradient(left, #fdd42d, #3a9ce0);
   background: -webkit-gradient(
     linear,
     left top,
     right top,
-    from(#f67d4a),
+    from(#fdd42d),
     to(#3a9ce0)
   );
-  background: linear-gradient(left, #f67d4a, #3a9ce0);
+  background: linear-gradient(left, #fdd42d, #3a9ce0);
   color: #fff;
 }
 

@@ -12,7 +12,7 @@
   margin-bottom: 40px;
   padding: 30px;
   box-shadow: 0px 1px 40px 0px rgb(40 63 116 / 10%);
-  background: rgb(0, 0, 0);
+  background: #fff;
 }
 
 @media (max-width: 991px) {
@@ -96,7 +96,7 @@
 }
 
 .tp-blog-pg-section .entry-meta li a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .tp-blog-pg-section .entry-meta > li:first-child {
@@ -152,7 +152,7 @@
 }
 
 .tp-blog-pg-section .post h3 a:hover {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .tp-blog-pg-section .post p {
@@ -168,7 +168,7 @@
 
 .tp-blog-pg-section .post .read-more {
   font-weight: 600;
-  color: #f67d4a;
+  color: #fdd42d;
   font-size: 18px;
 }
 
@@ -207,7 +207,7 @@
   .owl-controls
   .owl-nav
   [class*="owl-"]:hover {
-  background: #f67d4a;
+  background: #fdd42d;
   color: #fff;
 }
 
@@ -392,8 +392,8 @@
 }
 
 .video-btn .flaticon-play-button:before {
-  border: 10px solid rgba(246, 125, 74, 0.4);
+  border: 10px solid rgba(253, 212, 45, 0.4);
   border-radius: 50%;
-  background: rgba(246, 125, 74, 0.7);
+  background: rgba(253, 212, 45, 0.7);
   animation: spineer 2s infinite;
 }
