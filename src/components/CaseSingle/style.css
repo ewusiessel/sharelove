@@ -54,7 +54,7 @@
 
 .case-bb-text ul li:before {
   content: "";
-  background: #f67d4a;
+  background: #fdd42d;
   width: 8px;
   height: 8px;
   position: absolute;
@@ -73,7 +73,7 @@
   padding: 30px;
   margin-bottom: 40px;
   box-shadow: 0px 1px 40px 0px rgba(40, 63, 116, 0.1);
-  background: #202120;
+  background: #fff;
 }
 
 .tp-donations-amount h2,
@@ -111,7 +111,7 @@
 .tp-donations-amount input:focus,
 .tp-donations-details input:focus,
 .tp-donations-details textarea:focus {
-  border-color: #f67d4a;
+  border-color: #fdd42d;
 }
 
 .payment-name ul li input {
@@ -246,7 +246,7 @@
   border: 1px solid #2e2c2c;
 }
 
-.tp-payment-area .form-style input:focus {
+.tp-payment-area .form-style :focus {
   border: 1px solid #2e2c2c;
 }
 
