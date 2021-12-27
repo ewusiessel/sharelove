@@ -44,7 +44,7 @@ const ShopTabs = (props) => {
               toggle("2");
             }}
           >
-            Descripation
+            Descriptions
           </NavLink>
         </NavItem>
       </Nav>
