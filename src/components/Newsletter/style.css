@@ -5,6 +5,7 @@
   text-align: center;
   position: relative;
   z-index: 1;
+  margin-top: 70px;
 }
 
 .news-letter-section:before {
@@ -125,5 +126,5 @@
   text-align: center;
   position: relative;
   z-index: 1;
-  background: #101010;
+  background: #fff;
 }
