@@ -38,7 +38,7 @@
   right: 0;
   width: 1px;
   height: 70px;
-  background: #636363;
+  /* background: #636363; */
 }
 
 .tp-counter-area .tp-counter-grids .grid:last-child:before,
@@ -111,7 +111,7 @@
 }
 
 .tp-counter-area.v2 {
-  background: #101010;
+  /* background: #101010; */
   border-top: 1px solid #202120;
 }
 
