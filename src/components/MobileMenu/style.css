@@ -40,7 +40,7 @@
   letter-spacing: 0;
   text-transform: capitalize;
   font-weight: 900;
-  color: #898888;
+  color: #212529;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
@@ -70,7 +70,7 @@
 }
 .showmenu i {
   font-size: 30px;
-  color: #fff;
+  color: #212529;
 }
 
 .mobileMenu {
