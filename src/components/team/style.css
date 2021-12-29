@@ -5,6 +5,7 @@
 .team-section {
   background: #fff;
   padding-bottom: 80px;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.2);
 }
 
 @media (max-width: 991px) {
