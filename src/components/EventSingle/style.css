@@ -77,7 +77,7 @@
 
 #Schedule ul li:before {
   content: "";
-  background: #f67d4a;
+  background: #fdd42d;
   width: 6px;
   height: 6px;
   position: absolute;

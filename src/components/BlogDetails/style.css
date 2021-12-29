@@ -434,9 +434,10 @@
 }
 
 .tp-blog-single-section .comments-area li > div {
-  background: #262525;
+  /* background: #262525; */
   padding: 30px;
   margin-bottom: 20px;
+  border: 1px solid #474350;
 }
 
 @media (max-width: 991px) {
@@ -570,7 +571,7 @@
 
 .tp-blog-single-section .comment-respond form input,
 .tp-blog-single-section .comment-respond form textarea {
-  background-color: #262525;
+  /* background-color: #262525; */
   width: 100%;
   height: 50px;
   border: 1px solid #262525;
