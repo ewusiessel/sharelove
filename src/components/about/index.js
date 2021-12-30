@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import VideoModal from "../ModalVideo";
 import "./style.css";
 import abimg2 from "../../images/img-1.png";
+// import worldmap from "../images/about/world-map.png";
 
 const About = (props) => {
   const ClickHandler = () => {

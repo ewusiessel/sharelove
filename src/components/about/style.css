@@ -7,6 +7,10 @@
 .about-style-3 {
   padding: 100px 0;
   border-bottom: 1px solid rgba(102, 102, 102, 0.2);
+  background-image: url("../../images/about/world-map.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
 }
 
 .about-style .about-content p,
