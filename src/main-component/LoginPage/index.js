@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import { Link, withRouter } from "react-router-dom";
-import s1 from "../../images/shape.png";
+// import s1 from "../../images/shape.png";
 
 import "./style.scss";
 
@@ -133,9 +133,10 @@ const LoginPage = (props) => {
             </Grid>
           </Grid>
         </form>
-        <div className="shape-img">
+        {/* <div className="shape-img">
           <img src={s1} alt="" />
-        </div>
+        </div> */}
+        {/* TODO clean up */}
       </Grid>
     </Grid>
   );
