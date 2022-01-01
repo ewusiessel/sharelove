@@ -80,12 +80,14 @@ const Volunteer = () => {
                           ></textarea>
                         </div>
                         <div className="submit-area col-lg-12 col-12">
-                          <button
-                            type="submit"
+                          <a
+                            class="theme-btn"
+                            href="submit"
                             className="theme-btn submit-btn"
                           >
                             Send Message
-                          </button>
+                            {/* NOTE: changed button to link to remove black outline  */}
+                          </a>
                         </div>
                       </div>
                     </form>

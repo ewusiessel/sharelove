@@ -20,7 +20,8 @@
   padding-left: 15px;
   height: 45px;
   border-radius: 0;
-  background: #262525;
+  /* background: #262525; */
+  /* TODO clean up */
   color: #555;
 }
 
@@ -65,7 +66,8 @@
 
 .volunteer-contact-form {
   padding: 50px 40px;
-  background: #202120;
+  /* background: #202120; */
+  /* TODO clean up */
   position: relative;
   z-index: 1;
   box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
@@ -104,9 +106,12 @@
 .team-section.v2 {
   background: #fff;
 }
-.volunteer-area {
+/* .volunteer-area {
   background: #1e1e1e;
-}
+} */
+
+/* TODO clean up */
+
 .team-section.v2 .details {
   background-color: #1e1e1e;
 }
