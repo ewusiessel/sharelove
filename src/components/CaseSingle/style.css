@@ -183,7 +183,7 @@
 
 .tp-payment-area h2 span {
   font-size: 30px;
-  color: #ff493c;
+  /* color: #ff493c; */
 }
 
 .tp-payment-area {
@@ -212,7 +212,7 @@
 }
 
 .payment-name .mas label {
-  border: 1px solid #cc0000;
+  /* border: 1px solid #cc0000; */
 }
 
 .payment-name .ski label {
