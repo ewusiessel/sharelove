@@ -8,6 +8,8 @@ import causesimg5 from "../../images/cause/img-5.jpg";
 import causesimg6 from "../../images/cause/img-6.jpg";
 import "./style.css";
 
+// NOTE: imgs removed
+
 const Causes = (props) => {
   const ClickHandler = () => {
     window.scrollTo(10, 0);

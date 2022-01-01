@@ -15,17 +15,19 @@
 
 .cause-top {
   padding: 30px 20px;
-  background: #101010;
+  /* background: #101010; */
   padding-bottom: 50px;
 }
 
-.cause-img {
+/* .cause-img {
   border-radius: 50%;
 }
 
 .cause-img img {
   border-radius: 50%;
-}
+} */
+
+/* TODO: clean up */
 
 .cause-text {
   padding: 20px;
@@ -165,7 +167,7 @@
   height: 100%;
   content: "";
   background: rgba(30, 30, 30, 0.8);
-  border-radius: 50%;
+  /* border-radius: 50%; */
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s;
