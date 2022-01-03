@@ -64,6 +64,8 @@
   color: #fdd42d;
 }
 
+/* NOTE:  hover css for button */
+
 .topbar ul li {
   color: #474350;
   border-right: 1px solid rgba(255, 255, 255, 0.1);

@@ -48,10 +48,16 @@
 
 .gallery-section .gallery-filters ul li a {
   font-weight: 500;
-  color: #343a40;
+  color: #fdd42d;
   display: block;
   text-transform: capitalize;
 }
+
+.gallery-section .gallery-filters ul li a:hover {
+  color: #fd2d9f;
+  /* NOTE: remove */
+}
+
 .gallery-section .gallery-filters ul .current {
   color: #fff;
   text-decoration: none;
