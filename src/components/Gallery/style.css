@@ -48,7 +48,7 @@
 
 .gallery-section .gallery-filters ul li a {
   font-weight: 500;
-  color: #fdd42d;
+  color: #212529;
   display: block;
   text-transform: capitalize;
 }
@@ -58,9 +58,9 @@
   /* NOTE: remove */
 }
 
-.gallery-section .gallery-filters ul .current {
-  color: #fff;
-  text-decoration: none;
+.gallery-section .gallery-filters ul:current {
+  color: #fd2dbf;
+  /* text-decoration: underline; */
 }
 
 @media (max-width: 767px) {

@@ -104,7 +104,7 @@
 }
 
 .hero .slick-dots button {
-  background-color: #f67d4a;
+  background-color: #fdd42d;
   width: 14px;
   height: 14px;
   border: 2px solid #fff;
@@ -452,7 +452,7 @@
 }
 
 .hero-style-2 .slide .slide-caption h2 span {
-  color: #f67d4a;
+  color: #fdd42d;
 }
 
 .hero-style-2 .slide-caption p {
@@ -467,9 +467,9 @@
 }
 
 .hero-style-2 .theme-btn-s2:hover {
-  background-color: #f67d4a;
+  background-color: #fdd42d;
   color: #fff;
-  border: 1px solid #f67d4a;
+  border: 1px solid #fdd42d;
 }
 
 .hero-style-2 .slide-caption {
@@ -622,7 +622,7 @@ hero-style3
 }
 
 .header-style-1 .sticky-header {
-  background-color: #f67d4a;
+  background-color: #fdd42d;
   border-bottom: 0;
 }
 
