@@ -21,7 +21,7 @@ const HomePage = () => {
     <Fragment>
       <Navbar />
       <Hero Hero={hero1} />
-      <Features />
+      <Features Features={"features-area-2"} />
       <About AbImg={abimg} />
       <Causes />
       <CounterSection />
