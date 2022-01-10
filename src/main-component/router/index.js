@@ -2,8 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Homepage from "../HomePage";
-import Homepage2 from "../HomePage2";
-import Homepage3 from "../HomePage3";
 import AboutPage from "../AboutPage";
 import ShopPage from "../ShopPage";
 import GalleryPage from "../GalleryPage";
@@ -33,8 +31,6 @@ const AllRoute = () => {
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route path="/home" component={Homepage} />
-          <Route path="/home2" component={Homepage2} />
-          <Route path="/home3" component={Homepage3} />
           <Route path="/about" component={AboutPage} />
           <Route path="/shop" component={ShopPage} />
           <Route path="/gallery" component={GalleryPage} />
