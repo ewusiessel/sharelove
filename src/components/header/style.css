@@ -481,7 +481,7 @@ header.fixed .header-content {
   color: #474350;
 }
 
-.header-style-2
+/* .header-style-2
   .cart-search-contact
   .mini-cart-content
   .mini-cart-item-des
@@ -492,7 +492,10 @@ header.fixed .header-content {
   .mini-cart-item-des
   a:hover {
   color: #fdd42d;
-}
+} */
+
+/* NOTE: to remove hover dropdown menu */
+/* TODO: clean up */
 
 .header-style-2
   .cart-search-contact
