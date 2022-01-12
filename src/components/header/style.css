@@ -48,9 +48,9 @@ nav ul li a {
   padding: 40px 25px;
 }
 
-nav ul li a:hover {
+/* nav ul li a:hover {
   color: #fdd42d !important;
-}
+} */
 
 nav ul li a:before {
   content: "";
@@ -155,7 +155,7 @@ header.fixed .header-content {
   padding-right: 0;
 }
 .layout3 header.fixed {
-  background-color: #0a15a9;
+  /* TODO: background-color:  */
 }
 
 .middle-header nav ul {

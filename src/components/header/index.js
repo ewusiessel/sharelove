@@ -199,6 +199,7 @@ const Header = (props) => {
                       <Link onClick={ClickHandler} to="/contact" title="">
                         Contact
                       </Link>
+                      {/* NOTE: without dropdown */}
                     </li>
                   </ul>
                 </nav>
