@@ -72,6 +72,8 @@
   box-shadow: none;
 }
 
+/* NOTE: change focus input color  */
+
 .contact-pg-contact-section .contact-form form textarea {
   height: 170px;
 }
