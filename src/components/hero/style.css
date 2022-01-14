@@ -37,11 +37,10 @@
 
 .hero .slick-prev,
 .hero .slick-next {
-  background-color: rgb(253, 212, 45, 0.5);
+  background-color: #212122;
   width: 55px;
   height: 55px;
   z-index: 10;
-  border-radius: 50%;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -49,10 +48,14 @@
   transition: all 0.5s;
 }
 
-.hero .slick-prev:hover,
+/* .hero .slick-prev:hover,
 .hero .slick-next:hover {
   background-color: rgb(253, 212, 45);
-}
+} */
+
+/* TODO: hover opacity */
+
+/* NOTE: clean up */
 
 @media (max-width: 991px) {
   .hero .slick-prev,

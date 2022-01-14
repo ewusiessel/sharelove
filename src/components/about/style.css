@@ -13,6 +13,8 @@
   background-size: contain;
 }
 
+/* TODO: background-image max-width: */
+
 .about-style .about-content p,
 .about-style-1 .about-content p,
 .about-style-2 .about-content p {
@@ -123,7 +125,7 @@
 
 .about-img img {
   padding: 15px;
-  border: 4px solid rgba(102, 102, 102, 0.2);
+  border: 4px solid rgba(216, 52, 52, 0.2);
   width: 100%;
 }
 
