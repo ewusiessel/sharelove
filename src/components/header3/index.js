@@ -46,7 +46,7 @@ const Header3 = (props) => {
                       <Link onClick={ClickHandler} to="/case" title="">
                         Causes
                       </Link>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <Link onClick={ClickHandler} to="/case" title="">
                             Causes
@@ -61,13 +61,14 @@ const Header3 = (props) => {
                             Causes Single
                           </Link>
                         </li>
-                      </ul>
+                      </ul> */}
+                      {/* TODO: clean up */}
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/event" title="">
                         Event
                       </Link>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <Link onClick={ClickHandler} to="/event" title="">
                             Event
@@ -82,7 +83,7 @@ const Header3 = (props) => {
                             Event Single
                           </Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/home" title="">
@@ -110,11 +111,10 @@ const Header3 = (props) => {
                           </Link>
                         </li>
                         <li>
-                          <i className="fa fa-angle-right"></i>
                           <Link onClick={ClickHandler} to="/shop" title="">
                             Shop
                           </Link>
-                          <ul>
+                          {/* <ul>
                             <li>
                               <Link onClick={ClickHandler} to="/shop" title="">
                                 Shop
@@ -129,7 +129,7 @@ const Header3 = (props) => {
                                 Shop Single
                               </Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
                       </ul>
                     </li>
@@ -137,7 +137,7 @@ const Header3 = (props) => {
                       <Link onClick={ClickHandler} to="/blog">
                         Blog
                       </Link>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <Link onClick={ClickHandler} to="/blog">
                             Blog
@@ -192,7 +192,8 @@ const Header3 = (props) => {
                             </li>
                           </ul>
                         </li>
-                      </ul>
+                      </ul> */}
+                      {/* TODO: clean up */}
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/contact" title="">

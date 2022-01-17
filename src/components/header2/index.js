@@ -103,11 +103,10 @@ const Header2 = () => {
                         </Link>
                       </li>
                       <li>
-                        <i className="fa fa-angle-right"></i>
                         <Link onClick={ClickHandler} to="/shop" title="">
                           Shop
                         </Link>
-                        <ul>
+                        {/* <ul>
                           <li>
                             <Link onClick={ClickHandler} to="/shop" title="">
                               Shop
@@ -122,7 +121,7 @@ const Header2 = () => {
                               Shop Single
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                     </ul>
                   </li>
@@ -130,7 +129,8 @@ const Header2 = () => {
                     <Link onClick={ClickHandler} to="/blog">
                       Blog
                     </Link>
-                    <ul>
+                    {/* TODO: clean up */}
+                    {/* <ul>
                       <li>
                         <Link onClick={ClickHandler} to="/blog">
                           Blog
@@ -185,7 +185,7 @@ const Header2 = () => {
                           </li>
                         </ul>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <Link onClick={ClickHandler} to="/contact" title="">
