@@ -297,9 +297,12 @@
 .hero-style-2 .slide-caption h2,
 .hero-style-3 .slide-caption h2 {
   font-size: 60px;
+  font-weight: 700;
   color: #fff;
   margin: 0 0 0.45em;
 }
+
+/* NOTE: changed font weight for hero slide caption */
 
 @media (max-width: 991px) {
   .hero-style-1 .slide-caption h2,
