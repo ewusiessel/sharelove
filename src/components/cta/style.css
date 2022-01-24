@@ -14,6 +14,8 @@
   z-index: 1;
 }
 
+/* NOTE: copy for globe map  */
+
 .tp-cta-area:before,
 .tp-cta-area-2:before {
   position: absolute;
@@ -22,7 +24,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
