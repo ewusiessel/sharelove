@@ -10,10 +10,10 @@
   background-image: url("../../images/about/world-map.png");
   background-repeat: no-repeat;
   background-position-x: center;
-  background-size: contain;
+  /* background-size: contain; */
 }
 
-/* TODO: background-image max-width: */
+TODO: background-image max-width:DONE
 
 .about-style .about-content p,
 .about-style-1 .about-content p,
