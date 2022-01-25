@@ -39,35 +39,35 @@ const menus = [
     id: 3,
     title: "Causes",
     link: "/case",
-    submenu: [
-      {
-        id: 31,
-        title: "Causes",
-        link: "/case",
-      },
-      {
-        id: 32,
-        title: "Causes Single",
-        link: "/case-single",
-      },
-    ],
+    // submenu: [
+    //   {
+    //     id: 31,
+    //     title: "Causes",
+    //     link: "/case",
+    //   },
+    //   {
+    //     id: 32,
+    //     title: "Causes Single",
+    //     link: "/case-single",
+    //   },
+    // ],
   },
   {
     id: 4,
     title: "Event",
     link: "/event",
-    submenu: [
-      {
-        id: 41,
-        title: "Event",
-        link: "/event",
-      },
-      {
-        id: 42,
-        title: "Event Single",
-        link: "/event-details",
-      },
-    ],
+    // submenu: [
+    //   {
+    //     id: 41,
+    //     title: "Event",
+    //     link: "/event",
+    //   },
+    //   {
+    //     id: 42,
+    //     title: "Event Single",
+    //     link: "/event-details",
+    //   },
+    // ],
   },
   {
     id: 7,
@@ -112,38 +112,38 @@ const menus = [
     id: 5,
     title: "Blog",
     link: "/blog",
-    submenu: [
-      {
-        id: 51,
-        title: "Blog",
-        link: "/blog",
-      },
-      {
-        id: 52,
-        title: "Blog Left sidebar",
-        link: "/blog-left",
-      },
-      {
-        id: 53,
-        title: "Blog full width",
-        link: "/blog-fullwidth",
-      },
-      {
-        id: 54,
-        title: "Blog single",
-        link: "/blog-details",
-      },
-      {
-        id: 55,
-        title: "Blog single Left sidebar",
-        link: "/blog-details-left",
-      },
-      {
-        id: 56,
-        title: "Blog single Left sidebar",
-        link: "/blog-details-fullwidth",
-      },
-    ],
+    // submenu: [
+    //   {
+    //     id: 51,
+    //     title: "Blog",
+    //     link: "/blog",
+    //   },
+    //   {
+    //     id: 52,
+    //     title: "Blog Left sidebar",
+    //     link: "/blog-left",
+    //   },
+    //   {
+    //     id: 53,
+    //     title: "Blog full width",
+    //     link: "/blog-fullwidth",
+    //   },
+    //   {
+    //     id: 54,
+    //     title: "Blog single",
+    //     link: "/blog-details",
+    //   },
+    //   {
+    //     id: 55,
+    //     title: "Blog single Left sidebar",
+    //     link: "/blog-details-left",
+    //   },
+    //   {
+    //     id: 56,
+    //     title: "Blog single Left sidebar",
+    //     link: "/blog-details-fullwidth",
+    //   },
+    // ],
   },
   {
     id: 88,
