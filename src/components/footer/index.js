@@ -123,7 +123,7 @@ const Footer = (props) => {
                       </li>
                       <li>
                         <i className="fi flaticon-envelope"></i>
-                        Sadakat@gmail.com
+                        sharelove@gmail.com
                       </li>
                     </ul>
                   </div>
@@ -176,7 +176,7 @@ const Footer = (props) => {
             <div className="row">
               <div className="col col-xs-12">
                 <p className="copyright">
-                  &copy; 2021 Sadakat. All rights reserved
+                  &copy; 2021 sharelove. All rights reserved
                 </p>
               </div>
             </div>
