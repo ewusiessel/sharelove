@@ -115,11 +115,11 @@ const Footer = (props) => {
                   <div className="contact-ft">
                     <ul>
                       <li>
-                        <i className="fi flaticon-pin"></i>28 Street, New York
-                        City, USA
+                        <i className="fi flaticon-pin"></i>10 Westminster
+                        Street, London
                       </li>
                       <li>
-                        <i className="fi flaticon-call"></i>+000123456789
+                        <i className="fi flaticon-call"></i>0800 934 6779
                       </li>
                       <li>
                         <i className="fi flaticon-envelope"></i>
