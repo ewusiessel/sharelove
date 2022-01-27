@@ -6,7 +6,7 @@ import "./style.css";
 const menus = [
   {
     id: 1,
-    title: "Home",
+    title: "Home",  
     link: "/home",
     // submenu: [
     //   {
