@@ -23,21 +23,21 @@ const Contactpage = () => {
                     <i className="ti-location-pin"></i>
                   </div>
                   <h5>Our Location</h5>
-                  <p>245 King Street, Touterie Victoria 8520 Australia</p>
+                  <p>543 Namibia Street, Johanesburg Victoria, South Africa</p>
                 </li>
                 <li>
                   <div className="icon">
                     <i className="ti-mobile"></i>
                   </div>
                   <h5>Phone</h5>
-                  <p>0-123-456-7890</p>
+                  <p>+27-123-456-7890</p>
                 </li>
                 <li>
                   <div className="icon">
                     <i className="ti-email"></i>
                   </div>
                   <h5>Email</h5>
-                  <p>sample@gmail.com</p>
+                  <p>sharelove@gmail.com</p>
                 </li>
               </ul>
             </div>
