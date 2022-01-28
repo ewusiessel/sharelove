@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import VideoModal from "../ModalVideo";
 import "./style.css";
 import abimg2 from "../../images/img-1.png";
-// import worldmap from "../images/about/world-map.png";
 
 const About = (props) => {
   const ClickHandler = () => {
@@ -25,13 +24,14 @@ const About = (props) => {
                 <h2>About Us</h2>
               </div>
               <p>
-                Est consequat nostrud elit est eu labore aliquip ad proident
-                fugiat labore. Incididunt ea do qui consequat nulla cupidatat
-                laboris minim commodo reprehenderit. Consectetur laboris veniam
-                adipisicing id elit cillum exercitation. Consequat proident
-                ullamco incididunt amet.
+                Sharelove has a long history of taking action that transforms
+                the world. Our focus is on helping the most vulnerable children,
+                in the most difficult places, overcome poverty and experience
+                fullness of life. Together, with supporters like you, we’ve
+                helped millions of children and families out of poverty and we
+                are often first on the ground when a crisis strikes.
               </p>
-              <p>Enim velit pariatur amet ullamco exercitation.</p>
+              <p>Focusing on the most vulnerable.</p>
               <div className="btns">
                 <div>
                   <Link
