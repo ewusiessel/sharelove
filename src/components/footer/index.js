@@ -1,14 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../images/logo.png";
-// import n1 from "../../images/instragram/1.jpg";
-// import n2 from "../../images/instragram/2.jpg";
-// import n3 from "../../images/instragram/3.jpg";
-// import n4 from "../../images/instragram/4.jpg";
-// import n5 from "../../images/instragram/5.jpg";
-// import n6 from "../../images/instragram/6.jpg";
-// TODO remove commented out instagram images
 import "./style.css";
+import Logo from "../../images/logo.png";
 
 const Footer = (props) => {
   const ClickHandler = () => {
@@ -27,8 +20,8 @@ const Footer = (props) => {
                     <img src={Logo} alt="" />
                   </div>
                   <p>
-                    Build and Earn with your online store with lots of cool and
-                    exclusive tp-features{" "}
+                    Our integrated approach includes water, healthcare,
+                    education, child protection, and income generation.{" "}
                   </p>
                   <ul>
                     <li>
@@ -98,7 +91,7 @@ const Footer = (props) => {
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/event">
-                        Our Event
+                        Our Events
                       </Link>
                     </li>
                   </ul>
@@ -129,45 +122,6 @@ const Footer = (props) => {
                   </div>
                 </div>
               </div>
-
-              {/* <div className="widget instagram">
-                  <div className="widget-title">
-                    <h3>Instagram</h3>
-                  </div>
-                  <ul className="d-flex">
-                    <li>
-                      <Link onClick={ClickHandler} to="/">
-                        <img src={n1} alt="ins" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} to="/">
-                        <img src={n2} alt="ins" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} to="/">
-                        <img src={n3} alt="ins" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} to="/">
-                        <img src={n4} alt="ins" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} to="/">
-                        <img src={n5} alt="ins" />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} to="/">
-                        <img src={n6} alt="ins" />
-                      </Link>
-                    </li>
-                  </ul>
-                </div> */}
-              {/* TODO remove commented out instagram-widget */}
             </div>
           </div>
         </div>
