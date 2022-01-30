@@ -15,8 +15,8 @@ const Newsletter = (props) => {
               <div className="newsletter">
                 <h3>Subscribe our Newsletter</h3>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas.
+                  Signup for our weekly newsletter to get the latest news and
+                  updates delivered to your inbox.
                 </p>
                 <div className="newsletter-form">
                   <form onSubmit={submitHandler}>
