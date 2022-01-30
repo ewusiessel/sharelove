@@ -103,7 +103,8 @@ const Footer = (props) => {
                     <h3>Contact </h3>
                   </div>
                   <p>
-                    online store with lots of cool and exclusive tp-features
+                    We'd love to hear from you. We have different ways to get in
+                    touch.
                   </p>
                   <div className="contact-ft">
                     <ul>
