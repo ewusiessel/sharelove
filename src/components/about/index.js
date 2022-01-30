@@ -24,7 +24,7 @@ const About = (props) => {
                 <h2>About Us</h2>
               </div>
               <p>
-                Sharelove has a long history of taking action that transforms
+                ShareLove has a long history of taking action that transforms
                 the world. Our focus is on helping the most vulnerable children,
                 in the most difficult places, overcome poverty and experience
                 fullness of life. Together, with supporters like you, we’ve
