@@ -171,7 +171,7 @@ class Gallery extends Component {
                   }
                 >
                   <img src={Gallery_2} alt="" className="img img-responsive" />
-                  <div className="icon">
+                  {/* <div className="icon">
                     <Link
                       onClick={ClickHandler}
                       to="/gallery"
@@ -179,7 +179,8 @@ class Gallery extends Component {
                     >
                       <i className="ti-plus" aria-hidden="true"></i>
                     </Link>
-                  </div>
+                  </div> */}
+                  {/* TODO: remove */}
                 </div>
                 <div
                   className={
