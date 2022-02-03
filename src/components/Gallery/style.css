@@ -53,7 +53,7 @@
   text-transform: capitalize;
 }
 
-.gallery-section .gallery-filters ul li a:hover {
+.gallery-section .gallery-filters ul li a :hover {
   color: #fdd42d;
   /* NOTE: remove */
 }
@@ -89,11 +89,6 @@
   visibility: hidden;
   opacity: 0;
   transform: scale(0);
-}
-.gallery-section .grid:hover:before {
-  opacity: 1;
-  visibility: visible;
-  transform: scale(1);
 }
 
 .gallery-section .item {
