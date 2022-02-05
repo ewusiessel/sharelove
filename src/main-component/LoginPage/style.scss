@@ -7,7 +7,7 @@
     width: 500px;
     max-width: 90%;
     margin: auto;
-    background: #fff;
+    background: #212529;
     padding: 70px 50px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
@@ -47,8 +47,8 @@
       .inputOutline {
         label {
           font-size: 16px;
-          background: #fff;
           padding: 0 10px 0 0;
+          color: #fff;
         }
 
         input {
@@ -87,6 +87,7 @@
       label {
         span {
           font-size: 14px;
+          color: #888888;
 
           svg {
             width: 1.2em;
