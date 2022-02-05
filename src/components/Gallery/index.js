@@ -151,7 +151,7 @@ class Gallery extends Component {
                       to="/gallery"
                       className="view-icon"
                     >
-                      <i className="ti-plus" aria-hidden="true"></i>
+                      {/* <i className="ti-plus" aria-hidden="true"></i> */}
                     </Link>
                   </div>
                 </div>
