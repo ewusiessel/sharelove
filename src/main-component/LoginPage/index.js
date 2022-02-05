@@ -47,7 +47,7 @@ const LoginPage = (props) => {
       const email = value.email;
 
       if (email.match(userRegex)) {
-        toast.success("You successfully Login on Sadakat !");
+        toast.success("You successfully Login on ShareLove !");
         props.history.push("/home");
       }
     } else {
@@ -55,6 +55,9 @@ const LoginPage = (props) => {
       toast.error("Empty field is not allowed!");
     }
   };
+
+  // NOTE:validator
+
   return (
     <Grid className="loginWrapper">
       <Grid className="loginForm">
