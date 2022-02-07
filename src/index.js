@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./main-component/App/App";
-import * as serviceWorker from "./ServiceWorker.js";
 import "./css/font-awesome.min.css";
 import "./css/themify-icons.css";
 import "./css/flaticon.css";
