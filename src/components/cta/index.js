@@ -11,9 +11,9 @@ const CtaSection = (props) => {
             <div className="tp-cta-text">
               <h2>You Can Help The Poor With Us</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse{" "}
+                You can help us reach more vulnerable children with your
+                donations. Please donate today and help us protect children in
+                poor communities across the world.
               </p>
               <div className="btns">
                 <Link to="/donate" className="theme-btn">
