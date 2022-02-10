@@ -93,32 +93,6 @@ const BlogSidebar = () => {
             </div>
           </div>
         </div>
-        <div className="widget tag-widget">
-          <h3>Tags</h3>
-          <ul>
-            <li>
-              <Link to="/blog-details">Donations</Link>
-            </li>
-            <li>
-              <Link to="/blog-details">Charity</Link>
-            </li>
-            <li>
-              <Link to="/blog-details">Help</Link>
-            </li>
-            <li>
-              <Link to="/blog-details">Non Profit</Link>
-            </li>
-            <li>
-              <Link to="/blog-details">Poor People</Link>
-            </li>
-            <li>
-              <Link to="/blog-details">Helping Hand</Link>
-            </li>
-            <li>
-              <Link to="/blog-details">Video</Link>
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
   );
