@@ -46,44 +46,11 @@ const Header3 = (props) => {
                       <Link onClick={ClickHandler} to="/case" title="">
                         Causes
                       </Link>
-                      {/* <ul>
-                        <li>
-                          <Link onClick={ClickHandler} to="/case" title="">
-                            Causes
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            onClick={ClickHandler}
-                            to="/case-single"
-                            title=""
-                          >
-                            Causes Single
-                          </Link>
-                        </li>
-                      </ul> */}
-                      {/* TODO: clean up */}
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/event" title="">
                         Event
                       </Link>
-                      {/* <ul>
-                        <li>
-                          <Link onClick={ClickHandler} to="/event" title="">
-                            Event
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            onClick={ClickHandler}
-                            to="/event-details"
-                            title=""
-                          >
-                            Event Single
-                          </Link>
-                        </li>
-                      </ul> */}
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/home" title="">
@@ -114,22 +81,6 @@ const Header3 = (props) => {
                           <Link onClick={ClickHandler} to="/shop" title="">
                             Shop
                           </Link>
-                          {/* <ul>
-                            <li>
-                              <Link onClick={ClickHandler} to="/shop" title="">
-                                Shop
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                onClick={ClickHandler}
-                                to="/shop-single"
-                                title=""
-                              >
-                                Shop Single
-                              </Link>
-                            </li>
-                          </ul> */}
                         </li>
                       </ul>
                     </li>
@@ -137,63 +88,6 @@ const Header3 = (props) => {
                       <Link onClick={ClickHandler} to="/blog">
                         Blog
                       </Link>
-                      {/* <ul>
-                        <li>
-                          <Link onClick={ClickHandler} to="/blog">
-                            Blog
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} to="/blog-left">
-                            Blog Left sidebar
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} to="/blog-fullwidth">
-                            Blog full width
-                          </Link>
-                        </li>
-                        <li>
-                          <i className="fa fa-angle-right"></i>
-                          <Link
-                            onClick={ClickHandler}
-                            to="/blog-details"
-                            title=""
-                          >
-                            Blog Details
-                          </Link>
-                          <ul>
-                            <li>
-                              <Link
-                                onClick={ClickHandler}
-                                to="/blog-details"
-                                title=""
-                              >
-                                Blog single
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                onClick={ClickHandler}
-                                to="/blog-details-left"
-                                title=""
-                              >
-                                Blog single Left sidebar
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                onClick={ClickHandler}
-                                to="/blog-details-fullwidth"
-                                title=""
-                              >
-                                Blog single full width
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul> */}
-                      {/* TODO: clean up */}
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/contact" title="">
@@ -244,7 +138,7 @@ const Header3 = (props) => {
                                 Hoodi with zipper
                               </Link>
                               <span className="mini-cart-item-price">
-                                $20.15
+                                £20.15
                               </span>
                               <span className="mini-cart-item-quantity">
                                 x 1
@@ -262,7 +156,7 @@ const Header3 = (props) => {
                                 Ninja T-shirt
                               </Link>
                               <span className="mini-cart-item-price">
-                                $13.25
+                                £13.25
                               </span>
                               <span className="mini-cart-item-quantity">
                                 x 2
@@ -271,7 +165,7 @@ const Header3 = (props) => {
                           </div>
                         </div>
                         <div className="mini-cart-action clearfix">
-                          <span className="mini-checkout-price">$215.14</span>
+                          <span className="mini-checkout-price">£215.14</span>
                           <Link
                             onClick={ClickHandler}
                             to="/shop"
