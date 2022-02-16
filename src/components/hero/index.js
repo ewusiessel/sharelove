@@ -34,12 +34,12 @@ class Hero extends Component {
                 <div className="col col-lg-6 slide-caption">
                   <div className="slide-title">
                     <h2>
-                      Let’s be Kind for <span>Children #1</span>
+                      Together, we're tackling <span>World Poverty</span>
                     </h2>
                   </div>
                   <div className="slide-subtitle">
-                    <p>High Quality Charity Theme in Envato Market.</p>
-                    <p>You Can Satisfied Yourself By Helping.</p>
+                    <p>In a world focused on quick fixes,</p>
+                    <p>we're committed to fighting for lasting change.</p>
                   </div>
                   <div className="btns">
                     <Link to="/donate" className="theme-btn">
