@@ -129,38 +129,6 @@ const BlogList = () => {
                   Read More...
                 </Link>
               </div>
-
-              <div className="post format-quote">
-                <ul className="entry-meta">
-                  <li>
-                    <Link to="/blog-details">
-                      <img src={blog4} alt="" /> By Admin
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/blog-details">
-                      <i className="ti-calendar"></i> Sep 25,2021
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/blog-details">
-                      <i className="ti-heart"></i> 35
-                    </Link>
-                  </li>
-                </ul>
-                <h3>
-                  <Link to="/blog-details">
-                    They are waiting for your help.
-                  </Link>
-                </h3>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.{" "}
-                </p>
-              </div>
               <div className="pagination-wrapper pagination-wrapper-left">
                 <ul className="pg-pagination">
                   <li>
