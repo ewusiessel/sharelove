@@ -29,26 +29,7 @@ const BlogSidebar = () => {
             </div>
           </form>
         </div>
-        <div className="widget category-widget">
-          <h3>Categories</h3>
-          <ul>
-            <li>
-              <Link to="/blog-details">Helping Poor</Link>
-            </li>
-            <li>
-              <Link to="/blog-details">Water Problem</Link>
-            </li>
-            <li>
-              <Link to="/blog-details">Charity</Link>
-            </li>
-            <li>
-              <Link to="/blog-details">Medical Campain</Link>
-            </li>
-            <li>
-              <Link to="/blog-details">Free Food</Link>
-            </li>
-          </ul>
-        </div>
+
         <div className="widget recent-post-widget">
           <h3>Recent posts</h3>
           <div className="posts">
