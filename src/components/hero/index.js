@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import hero2 from "../../images/slider/slide-3.jpg";
 import hero3 from "../../images/slider/slide-4.jpg";
 
@@ -34,12 +33,14 @@ class Hero extends Component {
                 <div className="col col-lg-6 slide-caption">
                   <div className="slide-title">
                     <h2>
-                      Together, we're tackling <span>World Poverty</span>
+                      Together, we can tackle <span>World Poverty</span>
                     </h2>
                   </div>
                   <div className="slide-subtitle">
-                    <p>In a world focused on quick fixes,</p>
-                    <p>we're committed to fighting for lasting change.</p>
+                    <p>
+                      In a world focused on quick fixes, we're committed to
+                      fighting for lasting change.
+                    </p>
                   </div>
                   <div className="btns">
                     <Link to="/donate" className="theme-btn">
@@ -62,12 +63,14 @@ class Hero extends Component {
                 <div className="col col-lg-6 slide-caption">
                   <div className="slide-title">
                     <h2>
-                      Let’s be Kind for <span>Children #2</span>
+                      Half the world's Refugees are <span>Children</span>
                     </h2>
                   </div>
                   <div className="slide-subtitle">
-                    <p>High Quality Charity Theme in Envato Market.</p>
-                    <p>You Can Satisfied Yourself By Helping.</p>
+                    <p>
+                      Together we can meet their needs and provide safe places
+                      for them to play and learn.
+                    </p>
                   </div>
                   <div className="btns">
                     <Link to="/donate" className="theme-btn">
@@ -90,12 +93,14 @@ class Hero extends Component {
                 <div className="col col-lg-6 slide-caption">
                   <div className="slide-title">
                     <h2>
-                      Let’s be Kind for <span>Children #3</span>
+                      The right to Shelter and <span>Education</span>
                     </h2>
                   </div>
                   <div className="slide-subtitle">
-                    <p>High Quality Charity Theme in Envato Market.</p>
-                    <p>You Can Satisfied Yourself By Helping.</p>
+                    <p>
+                      We can provide support, care and mentoring for children
+                      from less privileged backgrounds.
+                    </p>
                   </div>
                   <div className="btns">
                     <Link to="/donate" className="theme-btn">
