@@ -13,12 +13,7 @@ import EventPageSingle from "../EventPageSingle";
 import DonatePage from "../DonatePage";
 import VolunteerPage from "../volunteerPage";
 import BlogPage from "../BlogPage";
-// import BlogPageLeft from "../BlogPageLeft";
-// import BlogPageFullwidth from "../BlogPageFullwidth";
-// import BlogDetails from "../BlogDetails";
-// import BlogDetailsLeftSiide from "../BlogDetailsLeftSiide";
 import BlogDetailsFull from "../BlogDetailsFull";
-import ErrorPage from "../ErrorPage";
 import ContactPage from "../ContactPage";
 import LoginPage from "../LoginPage";
 import SignUpPage from "../SignUpPage";
@@ -42,14 +37,7 @@ const AllRoute = () => {
           <Route path="/donate" component={DonatePage} />
           <Route path="/volunteer" component={VolunteerPage} />
           <Route path="/blog" component={BlogPage} />
-          {/* <Route path="/blog-left" component={BlogPageLeft} />
-          <Route path="/blog-fullwidth" component={BlogPageFullwidth} />
-          <Route path="/blog-details" component={BlogDetails} />
-          <Route path="/blog-details-left" component={BlogDetailsLeftSiide} /> */}
-
-          {/* TODO: clean up*/}
           <Route path="/blog-details-fullwidth" component={BlogDetailsFull} />
-          <Route path="/404" component={ErrorPage} />
           <Route path="/contact" component={ContactPage} />
           <Route path="/login" component={LoginPage} />
           <Route path="/signup" component={SignUpPage} />
