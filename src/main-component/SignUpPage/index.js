@@ -5,7 +5,6 @@ import { toast } from "react-toastify";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { Link, withRouter } from "react-router-dom";
-import s1 from "../../images/shape.png";
 
 const SignUpPage = (props) => {
   const [value, setValue] = useState({
@@ -154,9 +153,6 @@ const SignUpPage = (props) => {
             </Grid>
           </Grid>
         </form>
-        <div className="shape-img">
-          <img src={s1} alt="" />
-        </div>
       </Grid>
     </Grid>
   );
