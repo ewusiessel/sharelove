@@ -6,28 +6,9 @@ import "./style.css";
 const menus = [
   {
     id: 1,
-    title: "Home",  
+    title: "Home",
     link: "/home",
-    // submenu: [
-    //   {
-    //     id: 11,
-    //     title: "Home style 1",
-    //     link: "/home",
-    //   },
-    //   {
-    //     id: 12,
-    //     title: "Home style 2",
-    //     link: "/home2",
-    //   },
-    //   {
-    //     id: 13,
-    //     title: "Home style 3",
-    //     link: "/home3",
-    //   },
-    // ],
   },
-
-  // TODO: remove menus
 
   {
     id: 2,
@@ -39,35 +20,11 @@ const menus = [
     id: 3,
     title: "Causes",
     link: "/case",
-    // submenu: [
-    //   {
-    //     id: 31,
-    //     title: "Causes",
-    //     link: "/case",
-    //   },
-    //   {
-    //     id: 32,
-    //     title: "Causes Single",
-    //     link: "/case-single",
-    //   },
-    // ],
   },
   {
     id: 4,
     title: "Event",
     link: "/event",
-    // submenu: [
-    //   {
-    //     id: 41,
-    //     title: "Event",
-    //     link: "/event",
-    //   },
-    //   {
-    //     id: 42,
-    //     title: "Event Single",
-    //     link: "/event-details",
-    //   },
-    // ],
   },
   {
     id: 7,
@@ -91,19 +48,9 @@ const menus = [
       },
 
       {
-        id: 79,
-        title: "Error 404",
-        link: "/404",
-      },
-      {
         id: 80,
         title: "Shop",
         link: "/shop",
-      },
-      {
-        id: 81,
-        title: "Shop Single",
-        link: "/shop-single",
       },
     ],
   },
@@ -112,38 +59,6 @@ const menus = [
     id: 5,
     title: "Blog",
     link: "/blog",
-    // submenu: [
-    //   {
-    //     id: 51,
-    //     title: "Blog",
-    //     link: "/blog",
-    //   },
-    //   {
-    //     id: 52,
-    //     title: "Blog Left sidebar",
-    //     link: "/blog-left",
-    //   },
-    //   {
-    //     id: 53,
-    //     title: "Blog full width",
-    //     link: "/blog-fullwidth",
-    //   },
-    //   {
-    //     id: 54,
-    //     title: "Blog single",
-    //     link: "/blog-details",
-    //   },
-    //   {
-    //     id: 55,
-    //     title: "Blog single Left sidebar",
-    //     link: "/blog-details-left",
-    //   },
-    //   {
-    //     id: 56,
-    //     title: "Blog single Left sidebar",
-    //     link: "/blog-details-fullwidth",
-    //   },
-    // ],
   },
   {
     id: 88,
@@ -180,8 +95,6 @@ export default class MobileMenu extends Component {
     return (
       <div>
         <div className={`mobileMenu ${isMenuShow ? "show" : ""}`}>
-          {/* <div className="clox" onClick={this.menuHandler}>Close Me</div> */}
-
           <ul className="responsivemenu">
             {menus.map((item) => {
               return (
