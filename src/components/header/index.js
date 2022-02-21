@@ -74,11 +74,6 @@ const Header = (props) => {
                           </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} to="/404" title="">
-                            Error 404
-                          </Link>
-                        </li>
-                        <li>
                           <Link onClick={ClickHandler} to="/shop" title="">
                             Shop
                           </Link>
