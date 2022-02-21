@@ -124,15 +124,15 @@
   width: 100%;
 }
 
-.about-style .about-content h2,
+/* .about-style .about-content h2,
 .about-style-1 .about-content h2 {
   color: #1d375c;
-}
+} */
 
 .section-title span,
 .section-title-1 span {
   font-size: 16px;
-  color: #fdd42d;
+  color: #c3bfbf;
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -141,9 +141,9 @@
 
 .section-title h2,
 .section-title-1 h2 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
-  color: #c3bfbf;
+  color: #fdd42d;
   padding-bottom: 20px;
   margin-bottom: 50px;
   position: relative;
@@ -222,39 +222,6 @@
   animation: spineer 2s infinite;
 }
 
-/* @-webkit-keyframes spineer {
-  0% {
-    -webkit-box-shadow: 0 0 0 0 #f95f60;
-  }
-
-  70% {
-    -webkit-box-shadow: 0 0 0 20px rgba(250, 92, 93, 0);
-  }
-
-  100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(250, 92, 93, 0);
-  }
-} */
-
-/* @keyframes spineer {
-  0% {
-    -webkit-box-shadow: 0 0 0 0 #f95f60;
-    box-shadow: 0 0 0 0 #f95f60;
-  }
-
-  70% {
-    -webkit-box-shadow: 0 0 0 20px rgba(250, 92, 93, 0);
-    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
-  }
-
-  100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(250, 92, 93, 0);
-    box-shadow: 0 0 0 0 rgba(250, 92, 93, 0);
-  }
-} */
-/* NOTE button animation */
-/* TODO: clean up */
-
 .signature {
   margin-top: 20px;
 }
@@ -295,7 +262,7 @@
 @media (max-width: 767px) {
   .section-title h2,
   .section-title-1 h2 {
-    font-size: 20px;
+    /* font-size: 20px; */
     margin-bottom: 20px;
   }
 }
