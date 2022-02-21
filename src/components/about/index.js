@@ -43,9 +43,7 @@ const About = (props) => {
                   </Link>
                 </div>
               </div>
-              <div className="signature">
-                {/* <img src={abimg2} alt="" /> */}
-              </div>
+              <div className="signature"></div>
             </div>
           </div>
         </div>
