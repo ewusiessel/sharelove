@@ -36,7 +36,7 @@ const Shop = (props) => {
       shopImg: sp3,
       price: "£25.00",
       off: "£20.00",
-      title: "Grey Hoodi",
+      title: "Grey Hoodie",
       btn: "Add to cart",
       link: "/shop-single",
     },
