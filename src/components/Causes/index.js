@@ -39,6 +39,9 @@ const Causes = (props) => {
                   </div>
                 </div>
               </div>
+              <h4 className="cause-donation-goal">
+                Donation: £12,00.00 / £1,36,600. 00
+              </h4>
               <div className="cause-text">
                 <h3>
                   <Link onClick={ClickHandler} to="/case-single">
@@ -68,8 +71,10 @@ const Causes = (props) => {
                   </div>
                 </div>
               </div>
+              <h4 className="cause-donation-goal">
+                Donation: £12,00.00 / £1,36,600.00
+              </h4>
               <div className="cause-text">
-                <ul></ul>
                 <h3>
                   <Link onClick={ClickHandler} to="/case-single">
                     Education for Poor Children
@@ -98,6 +103,9 @@ const Causes = (props) => {
                   </div>
                 </div>
               </div>
+              <h4 className="cause-donation-goal">
+                Donation: £12,00.00 / £1,36,600.00
+              </h4>
               <div className="cause-text">
                 <h3>
                   <Link onClick={ClickHandler} to="/case-single">

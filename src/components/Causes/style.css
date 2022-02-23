@@ -49,17 +49,24 @@
 }
 
 .cause-item {
-  background-color: #212529;
   position: relative;
   margin-bottom: 30px;
-  border: 0.5px solid rgb(230, 230, 230);
 }
 
-.cause-text h3 {
+.cause-text .cause-donation-goal h3 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 80px;
   margin-bottom: 20px;
+}
+
+.cause-donation-goal {
+  margin-top: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 1500px) {
@@ -148,12 +155,13 @@
 
 .case-btn {
   position: relative;
-  top: 30%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* opacity: 0; */
   /* visibility: hidden; */
   transition: all 0.6s;
+  margin-bottom: 50px;
 }
 
 /* .cause-item:hover .case-btn {
