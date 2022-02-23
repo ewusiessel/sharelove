@@ -218,12 +218,6 @@
   border: 10px solid rgba(253, 212, 45, 0.4);
   border-radius: 50%;
   background: rgba(253, 212, 45, 0.7);
-  -webkit-animation: spineer 2s infinite;
-  animation: spineer 2s infinite;
-}
-
-.signature {
-  margin-top: 20px;
 }
 
 @media (max-width: 991px) {
