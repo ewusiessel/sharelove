@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import VideoModal from "../ModalVideo";
 import "./style.css";
-// TODO: Add About Us signature
 
 const About = (props) => {
   const ClickHandler = () => {
@@ -43,7 +42,6 @@ const About = (props) => {
                   </Link>
                 </div>
               </div>
-              <div className="signature"></div>
             </div>
           </div>
         </div>
