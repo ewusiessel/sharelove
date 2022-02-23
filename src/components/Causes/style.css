@@ -15,7 +15,7 @@
 
 .cause-top {
   padding: 30px 20px;
-  /* background: #101010; */
+  background: #fdd42d;
   padding-bottom: 50px;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .cause-item {
-  background-color: #fff;
+  background-color: #212529;
   position: relative;
   margin-bottom: 30px;
   border: 0.5px solid rgb(230, 230, 230);
@@ -58,7 +58,7 @@
 .cause-text h3 {
   font-size: 20px;
   font-weight: 700;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
 
@@ -148,7 +148,7 @@
 
 .case-btn {
   position: relative;
-  top: 15%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* opacity: 0; */
