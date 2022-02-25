@@ -19,7 +19,7 @@ const Causes = (props) => {
             <div className="thumb-text">
               <span>CAUSES</span>
             </div>
-            <h2>Latest Causes of ShareLove.</h2>
+            <h2>Our Latest Causes</h2>
           </div>
         </div>
         <div className="row">
@@ -109,7 +109,7 @@ const Causes = (props) => {
               <div className="cause-text">
                 <h3>
                   <Link onClick={ClickHandler} to="/case-single">
-                    Send Child to School for a Year
+                    Send Child to School
                   </Link>
                 </h3>
                 <p>
