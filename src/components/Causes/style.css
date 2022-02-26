@@ -15,7 +15,6 @@
 
 .cause-top {
   padding: 30px 20px;
-  background: #fdd42d;
   padding-bottom: 50px;
 }
 
@@ -53,20 +52,21 @@
   margin-bottom: 30px;
 }
 
-.cause-text .cause-donation-goal h3 {
+.cause-text .cause-donation-target h3 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 80px;
   margin-bottom: 20px;
 }
 
-.cause-donation-goal {
+.cause-donation-target {
   margin-top: 30px;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 30px;
+  padding: 20px;
 }
 
 @media (max-width: 1500px) {
@@ -92,10 +92,10 @@
   height: 100%;
 }
 
-.cause-top,
+/* .cause-top,
 .cause-text {
   position: relative;
-}
+} */
 
 .cause-item:hover .cause-top:after,
 .cause-item:hover .cause-text:after {
@@ -111,8 +111,8 @@
 }
 
 .cause-img img {
-  width: 305px;
-  height: 305px;
+  width: 100%;
+
   transition: all 0.8s;
 }
 
