@@ -29,9 +29,9 @@ const Causes = (props) => {
                 <img src={causesimg} alt="" />
                 <div className="case-btn"></div>
               </div>
-              <h4 className="cause-donation-target">
+              <h5 className="cause-donation-target">
                 Donation: £12,00.00 / £1,36,600. 00
-              </h4>
+              </h5>
               <div className="cause-text">
                 <h3>
                   <Link onClick={ClickHandler} to="/case-single">
@@ -50,15 +50,13 @@ const Causes = (props) => {
           </div>
           <div className="col col-xs-12">
             <div className="cause-item">
-              <div className="cause-top">
-                <div className="cause-img">
-                  <img src={causesimg2} alt="" />
-                  <div className="case-btn"></div>
-                </div>
+              <div className="cause-img">
+                <img src={causesimg2} alt="" />
+                <div className="case-btn"></div>
               </div>
-              <h4 className="cause-donation-target">
+              <h5 className="cause-donation-target">
                 Donation: £12,00.00 / £1,36,600.00
-              </h4>
+              </h5>
               <div className="cause-text">
                 <h3>
                   <Link onClick={ClickHandler} to="/case-single">
@@ -81,10 +79,9 @@ const Causes = (props) => {
                 <img src={causesimg3} alt="" />
                 <div className="case-btn"></div>
               </div>
-
-              <h4 className="cause-donation-target">
+              <h5 className="cause-donation-target">
                 Donation: £12,00.00 / £1,36,600.00
-              </h4>
+              </h5>
               <div className="cause-text">
                 <h3>
                   <Link onClick={ClickHandler} to="/case-single">
