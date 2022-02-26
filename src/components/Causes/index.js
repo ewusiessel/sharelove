@@ -14,7 +14,7 @@ const Causes = (props) => {
   return (
     <div className="case-area section-padding">
       <div className="container">
-        <div className="col-lg-6 offset-lg-3">
+        <div className="col-12">
           <div className="section-title text-center">
             <div className="thumb-text">
               <span>CAUSES</span>
@@ -23,23 +23,13 @@ const Causes = (props) => {
           </div>
         </div>
         <div className="row">
-          <div className="col-xl-4 col-lg-6 col-12">
+          <div className="col col-xs-12">
             <div className="cause-item">
-              <div className="cause-top">
-                <div className="cause-img">
-                  <img src={causesimg} alt="" />
-                  <div className="case-btn">
-                    <Link
-                      onClick={ClickHandler}
-                      to="/donate"
-                      className="theme-btn"
-                    >
-                      Donate Now
-                    </Link>
-                  </div>
-                </div>
+              <div className="cause-img">
+                <img src={causesimg} alt="" />
+                <div className="case-btn"></div>
               </div>
-              <h4 className="cause-donation-goal">
+              <h4 className="cause-donation-target">
                 Donation: £12,00.00 / £1,36,600. 00
               </h4>
               <div className="cause-text">
@@ -52,26 +42,21 @@ const Causes = (props) => {
                   It is a long established fact that a reader will be
                   distracted.
                 </p>
+                <Link onClick={ClickHandler} to="/donate" className="theme-btn">
+                  Donate Now
+                </Link>
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-6 col-12">
+          <div className="col col-xs-12">
             <div className="cause-item">
               <div className="cause-top">
                 <div className="cause-img">
                   <img src={causesimg2} alt="" />
-                  <div className="case-btn">
-                    <Link
-                      onClick={ClickHandler}
-                      to="/donate"
-                      className="theme-btn"
-                    >
-                      Donate Now
-                    </Link>
-                  </div>
+                  <div className="case-btn"></div>
                 </div>
               </div>
-              <h4 className="cause-donation-goal">
+              <h4 className="cause-donation-target">
                 Donation: £12,00.00 / £1,36,600.00
               </h4>
               <div className="cause-text">
@@ -84,26 +69,20 @@ const Causes = (props) => {
                   It is a long established fact that a reader will be
                   distracted.
                 </p>
+                <Link onClick={ClickHandler} to="/donate" className="theme-btn">
+                  Donate Now
+                </Link>
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-6 col-12">
+          <div className="col col-xs-12">
             <div className="cause-item">
-              <div className="cause-top">
-                <div className="cause-img">
-                  <img src={causesimg3} alt="" />
-                  <div className="case-btn">
-                    <Link
-                      onClick={ClickHandler}
-                      to="/donate"
-                      className="theme-btn"
-                    >
-                      Donate Now
-                    </Link>
-                  </div>
-                </div>
+              <div className="cause-img">
+                <img src={causesimg3} alt="" />
+                <div className="case-btn"></div>
               </div>
-              <h4 className="cause-donation-goal">
+
+              <h4 className="cause-donation-target">
                 Donation: £12,00.00 / £1,36,600.00
               </h4>
               <div className="cause-text">
@@ -116,6 +95,9 @@ const Causes = (props) => {
                   It is a long established fact that a reader will be
                   distracted.
                 </p>
+                <Link onClick={ClickHandler} to="/donate" className="theme-btn">
+                  Donate Now
+                </Link>
               </div>
             </div>
           </div>
