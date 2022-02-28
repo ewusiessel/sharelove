@@ -2,7 +2,6 @@ import React from "react";
 
 import pmt1 from "../../images/checkout/img-1.png";
 import pmt2 from "../../images/checkout/img-2.png";
-import pmt3 from "../../images/checkout/img-3.png";
 import pmt4 from "../../images/checkout/img-4.png";
 
 import "./style.css";
@@ -88,26 +87,7 @@ const Donate = (props) => {
                       <div className="col-12">
                         <div className="tp-payment-option" id="open4">
                           <div className="tp-payment-select">
-                            <ul>
-                              <li className="addToggle">
-                                <input
-                                  id="add"
-                                  type="radio"
-                                  name="payment"
-                                  value="30"
-                                />
-                                <label htmlFor="add">Payment By Card</label>
-                              </li>
-                              <li className="removeToggle">
-                                <input
-                                  id="remove"
-                                  type="radio"
-                                  name="payment"
-                                  value="30"
-                                />
-                                <label htmlFor="remove">Offline Donation</label>
-                              </li>
-                            </ul>
+                            <label htmlFor="add"> Payment By Card</label>
                           </div>
                           <div id="open5" className="payment-name">
                             <ul>
@@ -141,7 +121,7 @@ const Donate = (props) => {
                                   value="30"
                                 />
                                 <label htmlFor="3">
-                                  <img src={pmt3} alt="" />
+                                  <img src={pmt4} alt="" />
                                 </label>
                               </li>
                               <li className="pay">
@@ -151,9 +131,6 @@ const Donate = (props) => {
                                   name="size"
                                   value="30"
                                 />
-                                <label htmlFor="4">
-                                  <img src={pmt4} alt="" />
-                                </label>
                               </li>
                             </ul>
                             <div className="contact-form form-style">

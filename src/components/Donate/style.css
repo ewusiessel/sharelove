@@ -131,7 +131,7 @@
 }
 
 .payment-name ul li input:checked ~ label {
-  background: #cae8c8;
+  background: #cccccc;
 }
 
 .payment-name label {
