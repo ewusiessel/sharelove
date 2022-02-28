@@ -34,7 +34,7 @@ const Causes = (props) => {
               </h5>
               <div className="cause-text">
                 <h3>
-                  <Link onClick={ClickHandler} to="/case-single">
+                  <Link onClick={ClickHandler} to="">
                     Financial Help for Families
                   </Link>
                 </h3>
@@ -59,7 +59,7 @@ const Causes = (props) => {
               </h5>
               <div className="cause-text">
                 <h3>
-                  <Link onClick={ClickHandler} to="/case-single">
+                  <Link onClick={ClickHandler} to="">
                     Education for Poor Children
                   </Link>
                 </h3>
@@ -84,7 +84,7 @@ const Causes = (props) => {
               </h5>
               <div className="cause-text">
                 <h3>
-                  <Link onClick={ClickHandler} to="/case-single">
+                  <Link onClick={ClickHandler} to="">
                     Send Child to School
                   </Link>
                 </h3>

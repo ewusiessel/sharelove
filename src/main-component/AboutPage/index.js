@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import Navbar3 from "../../components/Navbar3";
 import PageTitle from "../../components/pagetitle";
-import Features from "../../components/Features";
 import About from "../../components/about";
 import TeamSection from "../../components/team";
 import Causes from "../../components/Causes";
@@ -17,7 +16,6 @@ const CasePage = () => {
       <Navbar3 />
       <PageTitle pageTitle={"About Us"} pagesub={"About"} />
       <About AbImg={abimg} />
-      <Features Features={"features-area-2"} />
       <Causes />
       <CounterSection />
       <TeamSection teamClas={"v2"} />
