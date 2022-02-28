@@ -32,11 +32,6 @@ const menus = [
     link: "/",
     submenu: [
       {
-        id: 71,
-        title: "Gallary",
-        link: "/gallery",
-      },
-      {
         id: 75,
         title: "Donate",
         link: "/donate",
