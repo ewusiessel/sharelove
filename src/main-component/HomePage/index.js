@@ -5,7 +5,6 @@ import About from "../../components/about";
 import Features from "../../components/Features";
 import Causes from "../../components/Causes";
 import CounterSection from "../../components/counter";
-import Gallery from "../../components/Gallery";
 import EventSection from "../../components/event";
 import TeamSection from "../../components/team";
 import CtaSection from "../../components/cta";
@@ -25,7 +24,6 @@ const HomePage = () => {
       <About AbImg={abimg} />
       <Causes />
       <CounterSection />
-      <Gallery />
       <TeamSection />
       <EventSection />
       <CtaSection />
