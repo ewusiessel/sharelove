@@ -9,7 +9,7 @@ const CtaSection = (props) => {
         <div className="row">
           <div className="col-lg-12">
             <div className="tp-cta-text">
-              <h2>You Can Help The Poor With Us</h2>
+              <h2>You Can Help Us Help The Poor</h2>
               <p>
                 You can help us reach more vulnerable children with your
                 donations. Please donate today and help us protect children in
