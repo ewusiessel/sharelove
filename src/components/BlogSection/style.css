@@ -80,11 +80,11 @@
 }
 
 .blog-section .grid .details h3 a {
-  color: #fff;
+  color: #fdd42d;
 }
 
 .blog-section .grid .details h3 a:hover {
-  color: #fdd42d;
+  color: #fff;
 }
 
 .blog-section .details p {
