@@ -2,7 +2,8 @@ import React, { Fragment } from "react";
 import Navbar3 from "../../components/Navbar3";
 import PageTitle from "../../components/pagetitle";
 import About from "../../components/about";
-import TeamSection from "../../components/team";
+// import TeamSection from "../../components/team";
+import BlogSection from "../../components/BlogSection";
 import Causes from "../../components/Causes";
 import CounterSection from "../../components/counter";
 import Newsletter from "../../components/Newsletter";
@@ -18,7 +19,7 @@ const CasePage = () => {
       <About AbImg={abimg} />
       <Causes />
       <CounterSection />
-      <TeamSection teamClas={"v2"} />
+      <BlogSection />
       <Newsletter />
       <Footer />
       <Scrollbar />
