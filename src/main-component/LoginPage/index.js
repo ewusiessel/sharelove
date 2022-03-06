@@ -7,18 +7,13 @@ import Button from "@material-ui/core/Button";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import { Link, withRouter } from "react-router-dom";
-// import s1 from "../../images/shape.png";
 
 import "./style.scss";
 
 const LoginPage = (props) => {
   const [value, setValue] = useState({
-    // email: "user@gmail.com",
-    // password: "123456",
     remember: false,
   });
-
-  // NOTE: input value removed
 
   const changeHandler = (e) => {
     setValue({ ...value, [e.target.name]: e.target.value });
@@ -138,10 +133,6 @@ const LoginPage = (props) => {
             </Grid>
           </Grid>
         </form>
-        {/* <div className="shape-img">
-          <img src={s1} alt="" />
-        </div> */}
-        {/* TODO clean up */}
       </Grid>
     </Grid>
   );
