@@ -88,12 +88,7 @@
 .team-section .details h3 {
   font-size: 22px;
   margin: 0 0 0.2em;
-}
-.team-section .details h3 a {
-  color: #ddd;
-}
-.team-section .details h3 a:hover {
-  color: #fdd42d;
+  color: #fbe99f;
 }
 
 @media (max-width: 991px) {
