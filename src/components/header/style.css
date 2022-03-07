@@ -108,13 +108,7 @@ nav ul ul li {
   transition: all 0.5s;
   position: relative;
 }
-/* nav ul ul li i {
-  position: absolute;
-  right: 10px;
-  top: 18px;
-  color: #fff;
-} */
-/* TODO: clean up */
+
 nav ul ul li a {
   padding: 5px;
   color: #474350;
@@ -339,35 +333,20 @@ header.fixed .header-content {
 }
 
 @media (max-width: 450px) {
-  .header-style-2 .cart-search-contact .mini-cart,
-  .header-style-3 .cart-search-contact .mini-cart {
+  .header-style-2 .cart-search-contact,
+  .header-style-3 .cart-search-contact {
     display: none;
   }
 }
 
-.header-style-2 .cart-search-contact .mini-cart .fi:before,
-.header-style-3 .cart-search-contact .mini-cart .fi:before {
+.header-style-2 .cart-search-contact .fi:before,
+.header-style-3 .cart-search-contact .fi:before {
   font-size: 25px;
   font-size: 1.66667rem;
 }
 
-.header-style-2 .cart-search-contact .mini-cart .cart-count,
-.header-style-3 .cart-search-contact .mini-cart .cart-count {
-  background: #fdd42d;
-  width: 22px;
-  height: 22px;
-  line-height: 22px;
-  font-size: 10px;
-  font-size: 0.66667rem;
-  color: white;
-  position: absolute;
-  top: 0;
-  right: 0px;
-  border-radius: 50%;
-}
-
-.header-style-2 .cart-search-contact .mini-cart-content,
-.header-style-3 .cart-search-contact .mini-cart-content {
+.header-style-2 .cart-search-contact -content,
+.header-style-3 .cart-search-contact -content {
   background: #fff;
   width: 300px;
   z-index: 10;
@@ -386,29 +365,29 @@ header.fixed .header-content {
 }
 
 @media (max-width: 991px) {
-  .header-style-2 .cart-search-contact .mini-cart-content,
-  .header-style-3 .cart-search-contact .mini-cart-content {
+  .header-style-2 .cart-search-contact -content,
+  .header-style-3 .cart-search-contact -content {
     top: 55px;
   }
 }
 
 @media (max-width: 767px) {
-  .header-style-2 .cart-search-contact .mini-cart-content,
-  .header-style-3 .cart-search-contact .mini-cart-content {
+  .header-style-2 .cart-search-contact -content,
+  .header-style-3 .cart-search-contact -content {
     top: 55px;
   }
 }
 
 @media (max-width: 450px) {
-  .header-style-2 .cart-search-contact .mini-cart-content,
-  .header-style-3 .cart-search-contact .mini-cart-content {
+  .header-style-2 .cart-search-contact -content,
+  .header-style-3 .cart-search-contact -content {
     right: auto;
     left: -185px;
   }
 }
 
-.header-style-2 .cart-search-contact .mini-cart-content p,
-.header-style-3 .cart-search-contact .mini-cart-content p {
+.header-style-2 .cart-search-contact -content p,
+.header-style-3 .cart-search-contact -content p {
   font-size: 15px;
   font-size: 1rem;
   font-weight: 500;
@@ -417,64 +396,50 @@ header.fixed .header-content {
   text-transform: uppercase;
 }
 
-.header-style-2 .cart-search-contact .mini-cart-content .mini-cart-items,
-.header-style-3 .cart-search-contact .mini-cart-content .mini-cart-items {
+.header-style-2 .cart-search-contact -content -items,
+.header-style-3 .cart-search-contact -content -items {
   padding: 25px 20px;
 }
 
-.header-style-2 .cart-search-contact .mini-cart-content .mini-cart-item,
-.header-style-3 .cart-search-contact .mini-cart-content .mini-cart-item {
+.header-style-2 .cart-search-contact -content -item,
+.header-style-3 .cart-search-contact -content -item {
   padding-top: 15px;
   margin-top: 15px;
   border-top: 0.5px solid #c3bfbf;
 }
 
-.header-style-2
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-item:first-child,
-.header-style-3
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-item:first-child {
+.header-style-2 .cart-search-contact -content -item:first-child,
+.header-style-3 .cart-search-contact -content -item:first-child {
   padding-top: 0;
   margin-top: 0;
   border-top: 0;
 }
 
-.header-style-2 .cart-search-contact .mini-cart-content .mini-cart-item-image,
-.header-style-3 .cart-search-contact .mini-cart-content .mini-cart-item-image {
+.header-style-2 .cart-search-contact -content -item-image,
+.header-style-3 .cart-search-contact -content -item-image {
   width: 50px;
   height: 50px;
   float: left;
   margin-right: 15px;
 }
 
-.header-style-2 .cart-search-contact .mini-cart-content .mini-cart-item-image a,
-.header-style-3 .cart-search-contact .mini-cart-content .mini-cart-item-image a,
-.header-style-2
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-item-image
-  img,
-.header-style-3
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-item-image
-  img {
+.header-style-2 .cart-search-contact -content -item-image a,
+.header-style-3 .cart-search-contact -content -item-image a,
+.header-style-2 .cart-search-contact -content -item-image img,
+.header-style-3 .cart-search-contact -content -item-image img {
   display: block;
   width: 46px;
   height: 46px;
 }
 
-.header-style-2 .cart-search-contact .mini-cart-content .mini-cart-item-des,
-.header-style-3 .cart-search-contact .mini-cart-content .mini-cart-item-des {
+.header-style-2 .cart-search-contact -content -item-des,
+.header-style-3 .cart-search-contact -content -item-des {
   position: relative;
   overflow: hidden;
 }
 
-.header-style-2 .cart-search-contact .mini-cart-content .mini-cart-item-des a,
-.header-style-3 .cart-search-contact .mini-cart-content .mini-cart-item-des a {
+.header-style-2 .cart-search-contact -content -item-des a,
+.header-style-3 .cart-search-contact -content -item-des a {
   font-size: 14px;
   font-size: 0.93333rem;
   font-weight: 600;
@@ -482,32 +447,8 @@ header.fixed .header-content {
   color: #474350;
 }
 
-/* .header-style-2
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-item-des
-  a:hover,
-.header-style-3
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-item-des
-  a:hover {
-  color: #fdd42d;
-} */
-
-/* NOTE: to remove hover dropdown menu */
-/* TODO: clean up */
-
-.header-style-2
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-item-des
-  .mini-cart-item-price,
-.header-style-3
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-item-des
-  .mini-cart-item-price {
+.header-style-2 .cart-search-contact -content -item-des -item-price,
+.header-style-3 .cart-search-contact -content -item-des -item-price {
   font-size: 13px;
   font-size: 0.86667rem;
   color: #888;
@@ -515,16 +456,8 @@ header.fixed .header-content {
   margin-top: 3px;
 }
 
-.header-style-2
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-item-des
-  .mini-cart-item-quantity,
-.header-style-3
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-item-des
-  .mini-cart-item-quantity {
+.header-style-2 .cart-search-contact -content -item-des -item-quantity,
+.header-style-3 .cart-search-contact -content -item-des -item-quantity {
   font-size: 12px;
   font-size: 0.8rem;
   color: #fdd42d;
@@ -534,8 +467,8 @@ header.fixed .header-content {
   top: 2px;
 }
 
-.header-style-2 .cart-search-contact .mini-cart-content .mini-cart-action,
-.header-style-3 .cart-search-contact .mini-cart-content .mini-cart-action {
+.header-style-2 .cart-search-contact -content -action,
+.header-style-3 .cart-search-contact -content -action {
   padding: 20px 0 30px;
   border-top: 0.5px solid #c3bfbf; /* NOTE line in basket view drop download */
   text-align: center;
@@ -544,29 +477,13 @@ header.fixed .header-content {
   align-items: center;
 }
 
-.header-style-2
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-action
-  .theme-btn-s2,
-.header-style-3
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-action
-  .theme-btn-s2 {
+.header-style-2 .cart-search-contact -content -action .theme-btn-s2,
+.header-style-3 .cart-search-contact -content -action .theme-btn-s2 {
   float: right;
 }
 
-.header-style-2
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-action
-  .mini-checkout-price,
-.header-style-3
-  .cart-search-contact
-  .mini-cart-content
-  .mini-cart-action
-  .mini-checkout-price {
+.header-style-2 .cart-search-contact -content -action .mini-checkout-price,
+.header-style-3 .cart-search-contact -content -action .mini-checkout-price {
   font-size: 18px;
   font-size: 1.2rem;
   font-weight: 600;
@@ -575,8 +492,8 @@ header.fixed .header-content {
   padding-left: 30px;
 }
 
-.header-style-2 .mini-cart:hover .mini-cart-content,
-.header-style-3 .mini-cart:hover .mini-cart-content,
+.header-style-2 :hover -content,
+.header-style-3 :hover -content,
 .header-style-2 .header-search-form-wrapper:hover .header-search-form,
 .header-style-3 .header-search-form-wrapper:hover .header-search-form {
   opacity: 1;

@@ -54,28 +54,6 @@ const Header = (props) => {
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} to="/home" title="">
-                        Pages
-                      </Link>
-                      <ul>
-                        <li>
-                          <Link onClick={ClickHandler} to="/donate" title="">
-                            Donate
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} to="/volunteer" title="">
-                            Volunteer
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} to="/shop" title="">
-                            Shop
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
                       <Link onClick={ClickHandler} to="/blog">
                         Blog
                       </Link>
@@ -84,7 +62,6 @@ const Header = (props) => {
                       <Link onClick={ClickHandler} to="/contact" title="">
                         Contact
                       </Link>
-                      {/* NOTE: without dropdown */}
                     </li>
                   </ul>
                 </nav>
@@ -111,63 +88,6 @@ const Header = (props) => {
                         </form>
                       </div>
                     </div>
-                    <div className="mini-cart">
-                      <button className="cart-toggle-btn">
-                        {" "}
-                        <i className="fi flaticon-shopping-bag"></i>{" "}
-                        <span className="cart-count">02</span>
-                      </button>
-                      <div className="mini-cart-content">
-                        <div className="mini-cart-items">
-                          <div className="mini-cart-item clearfix">
-                            <div className="mini-cart-item-image">
-                              <Link onClick={ClickHandler} to="/shop">
-                                <img src={min1} alt="" />
-                              </Link>
-                            </div>
-                            <div className="mini-cart-item-des">
-                              <Link onClick={ClickHandler} to="/shop">
-                                Hoodi with zipper
-                              </Link>
-                              <span className="mini-cart-item-price">
-                                £20.15
-                              </span>
-                              <span className="mini-cart-item-quantity">
-                                x 1
-                              </span>
-                            </div>
-                          </div>
-                          <div className="mini-cart-item clearfix">
-                            <div className="mini-cart-item-image">
-                              <Link onClick={ClickHandler} to="/shop">
-                                <img src={min2} alt="" />
-                              </Link>
-                            </div>
-                            <div className="mini-cart-item-des">
-                              <Link onClick={ClickHandler} to="/shop">
-                                Ninja T-shirt
-                              </Link>
-                              <span className="mini-cart-item-price">
-                                £13.25
-                              </span>
-                              <span className="mini-cart-item-quantity">
-                                x 2
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="mini-cart-action clearfix">
-                          <span className="mini-checkout-price">£215.14</span>
-                          <Link
-                            onClick={ClickHandler}
-                            to="/shop"
-                            className="view-cart-btn theme-btn"
-                          >
-                            View Cart
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -175,7 +95,6 @@ const Header = (props) => {
                 <MobileMenu />
               </div>
             </div>
-
             <div className="clearfix"></div>
           </div>
         </div>
