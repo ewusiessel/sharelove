@@ -80,13 +80,14 @@
 }
 
 .blog-section .grid .details h3 a {
-  color: #fdd42d;
-}
-
-.blog-section .grid .details h3 a:hover {
   color: #fff;
 }
 
+/* .blog-section .grid .details h3 a:hover {
+  color: #;
+} */
+
+/* NOTE: blog section hover color  */
 .blog-section .details p {
   font-size: 15px;
   font-size: 0.9375rem;

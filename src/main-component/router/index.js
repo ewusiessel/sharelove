@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Homepage from "../HomePage";
 import AboutPage from "../AboutPage";
 import ShopPage from "../ShopPage";
-import ShopSinglePage from "../ShopSinglePage";
 import CausePage from "../CasePage";
 import EventPage from "../EventPage";
 import EventPageSingle from "../EventPageSingle";
@@ -26,7 +25,6 @@ const AllRoute = () => {
           <Route path="/home" component={Homepage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/shop" component={ShopPage} />
-          <Route path="/shop-single" component={ShopSinglePage} />
           <Route path="/case" component={CausePage} />
           <Route path="/event" component={EventPage} />
           <Route path="/event-details" component={EventPageSingle} />
