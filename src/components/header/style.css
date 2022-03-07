@@ -149,9 +149,6 @@ header.fixed .header-content {
   padding-left: 0;
   padding-right: 0;
 }
-.layout3 header.fixed {
-  /* TODO: background-color:  */
-}
 
 .middle-header nav ul {
   margin-bottom: 0;

@@ -3,8 +3,6 @@ import Logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
 import HeaderTopbar from "../HeaderTopbar";
 import MobileMenu from "../../components/MobileMenu";
-import min1 from "../../images/shop/mini/img-1.jpg";
-import min2 from "../../images/shop/mini/img-2.jpg";
 import "./style.css";
 
 const Header = (props) => {
