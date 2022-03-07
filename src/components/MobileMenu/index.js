@@ -26,29 +26,6 @@ const menus = [
     title: "Event",
     link: "/event",
   },
-  {
-    id: 7,
-    title: "Pages",
-    link: "/",
-    submenu: [
-      {
-        id: 75,
-        title: "Donate",
-        link: "/donate",
-      },
-      {
-        id: 76,
-        title: "Volunteer",
-        link: "/volunteer",
-      },
-
-      {
-        id: 80,
-        title: "Shop",
-        link: "/shop",
-      },
-    ],
-  },
 
   {
     id: 5,
