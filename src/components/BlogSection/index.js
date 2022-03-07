@@ -27,11 +27,7 @@ const BlogSection = (props) => {
                   <img src={blog1} alt="" />
                 </div>
                 <div className="details">
-                  <h3>
-                    <Link onClick={ClickHandler} to="/blog-single">
-                      Best and less published their supplier lists.
-                    </Link>
-                  </h3>
+                  <h3>Best and less published their supplier lists.</h3>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration.
@@ -53,11 +49,7 @@ const BlogSection = (props) => {
                   <img src={blog2} alt="" />
                 </div>
                 <div className="details">
-                  <h3>
-                    <Link onClick={ClickHandler} to="/blog-single">
-                      Best and less published their supplier lists.
-                    </Link>
-                  </h3>
+                  <h3>Best and less published their supplier lists.</h3>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration.
@@ -79,11 +71,7 @@ const BlogSection = (props) => {
                   <img src={blog3} alt="" />
                 </div>
                 <div className="details">
-                  <h3>
-                    <Link onClick={ClickHandler} to="/blog-single">
-                      Best and less published their supplier lists.
-                    </Link>
-                  </h3>
+                  <h3>Best and less published their supplier lists.</h3>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration.

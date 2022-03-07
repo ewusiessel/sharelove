@@ -34,7 +34,7 @@ breadcumb-style
 }
 
 .tp-breadcumb-wrap h2 {
-  font-size: 40px;
+  font-size: 80px;
   color: #fff;
   line-height: 60px;
   margin-top: -10px;
@@ -43,7 +43,7 @@ breadcumb-style
 
 @media (max-width: 767px) {
   .tp-breadcumb-wrap h2 {
-    font-size: 25px;
+    font-size: 40px;
     line-height: 35px;
   }
 }
@@ -54,26 +54,18 @@ breadcumb-style
   color: #fff;
 }
 
-.tp-breadcumb-wrap ul li a {
+.tp-breadcumb-wrap a {
   color: #fff;
   font-size: 18px;
   transition: all 0.3s;
 }
 
-.tp-breadcumb-wrap ul li a:hover {
-  color: #fdd42d;
-}
-
-.tp-breadcumb-wrap ul li:last-child {
-  color: #fdd42d;
-}
-
-.tp-breadcumb-wrap ul li:after {
+.tp-breadcumb-wrap :after {
   content: "/";
   position: relative;
   left: 7px;
 }
 
-.tp-breadcumb-wrap ul li:last-child:after {
+.tp-breadcumb-wrap :last-child:after {
   display: none;
 }
