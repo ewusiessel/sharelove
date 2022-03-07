@@ -5,8 +5,6 @@ import causesimg2 from "../../images/cause/img-2.jpg";
 import causesimg3 from "../../images/cause/img-3.jpg";
 import "./style.css";
 
-// NOTE: imgs removed
-
 const Causes = (props) => {
   const ClickHandler = () => {
     window.scrollTo(10, 0);
@@ -16,9 +14,7 @@ const Causes = (props) => {
       <div className="container">
         <div className="col-12">
           <div className="section-title text-center">
-            <div className="thumb-text">
-              <span>CAUSES</span>
-            </div>
+            <div className="thumb-text"></div>
             <h2>Our Latest Causes</h2>
           </div>
         </div>

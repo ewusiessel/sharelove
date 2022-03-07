@@ -15,7 +15,6 @@ const BlogSection = (props) => {
       <div className="container">
         <div className="col-l2">
           <div className="section-title text-center">
-            <span>From Our Blog</span>
             <h2>Latest News</h2>
           </div>
         </div>

@@ -15,7 +15,6 @@ const EventSection = (props) => {
     <section className="event-section section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <span>Our Events</span>
           <h2>Upcoming Events</h2>
         </div>
         <div className="row">

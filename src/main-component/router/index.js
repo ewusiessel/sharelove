@@ -8,7 +8,6 @@ import CausePage from "../CasePage";
 import EventPage from "../EventPage";
 import EventPageSingle from "../EventPageSingle";
 import DonatePage from "../DonatePage";
-import VolunteerPage from "../volunteerPage";
 import BlogPage from "../BlogPage";
 import BlogDetailsFull from "../BlogDetailsFull";
 import ContactPage from "../ContactPage";
@@ -29,7 +28,6 @@ const AllRoute = () => {
           <Route path="/event" component={EventPage} />
           <Route path="/event-details" component={EventPageSingle} />
           <Route path="/donate" component={DonatePage} />
-          <Route path="/volunteer" component={VolunteerPage} />
           <Route path="/blog" component={BlogPage} />
           <Route path="/blog-details-fullwidth" component={BlogDetailsFull} />
           <Route path="/contact" component={ContactPage} />
