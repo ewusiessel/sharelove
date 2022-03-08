@@ -48,7 +48,7 @@
 }
 
 .cause-text .cause-donation-target h3 {
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 700;
   margin-top: 80px;
   margin-bottom: 20px;
@@ -72,8 +72,9 @@
 }
 
 .cause-text h3 a {
-  color: #202120;
-  font-weight: 300;
+  color: #c3bfbf;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .cause-text h3 a:hover {
