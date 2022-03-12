@@ -190,7 +190,7 @@
 
 .tp-blog-sidebar .recent-post-widget .post h4 a {
   display: inline-block;
-  color: #c3bfbf;
+  color: #474350;
 }
 
 @media (max-width: 1199px) {
@@ -200,12 +200,12 @@
 }
 
 .tp-blog-sidebar .recent-post-widget .post h4 a:hover {
-  color: #fdd42d;
+  color: #8b8b8b;
 }
 
 .tp-blog-sidebar .recent-post-widget .post .details .date {
   font-size: 15px;
-  color: #888;
+  color: #fff;
 }
 
 .tp-blog-sidebar .recent-post-widget .post .details .date i {
