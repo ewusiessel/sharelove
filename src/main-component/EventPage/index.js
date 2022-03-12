@@ -11,9 +11,9 @@ const EventPage = () => {
   return (
     <Fragment>
       <Navbar3 />
-      <PageTitle pageTitle={"Our Event"} pagesub={"Event"} />
+      <PageTitle pageTitle={"Our Events"} pagesub={"Event"} />
       <EventSection />
-      <CounterSection counter={"v2"} />
+      <CounterSection />
       <Newsletter />
       <Footer />
       <Scrollbar />
