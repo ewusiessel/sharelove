@@ -72,17 +72,9 @@
 }
 
 .cause-text h3 a {
-  color: #c3bfbf;
+  color: #fdd42d;
   font-size: 25px;
   font-weight: bold;
-}
-
-.cause-text h3 a:hover {
-  color: #fdd42d;
-}
-
-.cause-item:hover:before {
-  height: 100%;
 }
 
 .cause-item:hover:after {
