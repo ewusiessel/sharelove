@@ -188,12 +188,6 @@ img {
   animation: rotating 5s alternate infinite;
 }
 
-/** for popup image ***/
-.mfp-wrap {
-  background-color: rgba(0, 0, 0, 0.9);
-  z-index: 99999;
-}
-
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;

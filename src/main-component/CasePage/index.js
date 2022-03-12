@@ -13,8 +13,8 @@ const CausePage = () => {
       <Navbar3 />
       <PageTitle pageTitle={"Our Causes"} pagesub={"Causes"} />
       <Causes />
-      <CounterSection counter={"v2"} />
-      <Newsletter NewsClass={"s2"} />
+      <CounterSection />
+      <Newsletter />
       <Footer />
       <Scrollbar />
     </Fragment>
