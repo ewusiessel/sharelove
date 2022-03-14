@@ -7,7 +7,7 @@ const Contactpage = () => {
     <section className="contact-pg-contact-section section-padding">
       <div className="container">
         <div className="row">
-          <div className="col col-lg-6 col-12">
+          <div className="col-12">
             <div className="contact-form-area">
               <div className="section-title-s3 section-title-s5">
                 <h2>Quick Contact Form</h2>
