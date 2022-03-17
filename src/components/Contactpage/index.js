@@ -5,6 +5,7 @@ import "./style.css";
 const Contactpage = () => {
   return (
     <section className="contact-pg-contact-section section-padding">
+
       <div className="container">
         <div className="row">
           <div className="col-12">

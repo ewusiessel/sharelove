@@ -88,9 +88,6 @@ const ForgotPassword = (props) => {
             </Grid>
           </Grid>
         </form>
-        <div className="shape-img">
-          <img src={s1} alt="" />
-        </div>
       </Grid>
     </Grid>
   );

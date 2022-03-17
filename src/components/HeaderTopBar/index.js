@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import { BsTelephone, BsEnvelope } from "react-icons/bs";
 
 const HeaderTopbar = () => {
   return (
@@ -11,10 +12,10 @@ const HeaderTopbar = () => {
             <div className="contact-intro">
               <ul>
                 <li>
-                  <i className="fi flaticon-call"></i>0800 934 6779
+                  <BsTelephone /> 0800 934 6779
                 </li>
                 <li>
-                  <i className="fi flaticon-envelope"></i> sharelove@gmail.com
+                  <BsEnvelope /> sharelove@gmail.com
                 </li>
               </ul>
             </div>
