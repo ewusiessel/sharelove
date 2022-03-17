@@ -236,7 +236,6 @@ header.fixed .header-content {
   }
 }
 
-.header-style-2 .cart-search-contact button,
 .header-style-3 .cart-search-contact button {
   background: transparent;
   padding: 0;
@@ -244,13 +243,11 @@ header.fixed .header-content {
   outline: 0;
 }
 
-.header-style-2 .cart-search-contact > div,
 .header-style-3 .cart-search-contact > div {
   float: left;
   position: relative;
 }
 
-.header-style-2 .cart-search-contact button > i,
 .header-style-3 .cart-search-contact button > i {
   font-size: 20px;
   color: #fff;
@@ -305,7 +302,6 @@ header.fixed .header-content {
   position: relative;
 }
 
-.header-style-2 .cart-search-contact form div button,
 .header-style-3 .cart-search-contact form div button {
   position: absolute;
   right: 15px;
@@ -317,7 +313,6 @@ header.fixed .header-content {
   transform: translateY(-50%);
 }
 
-.header-style-2 .cart-search-contact input,
 .header-style-3 .cart-search-contact input {
   width: 100%;
   height: 50px;
@@ -498,14 +493,13 @@ header.fixed .header-content {
   right: 0;
 }
 
-.header-style-2 .cart-search-contact .cart-toggle-btn,
-.header-style-3 .cart-search-contact .cart-toggle-btn,
-.header-style-2 .cart-search-contact .search-toggle-btn,
-.header-style-3 .cart-search-contact .search-toggle-btn {
+.header-style-20px .header-style-3 .header-style-2 .search-toggle-btn,
+.header-style-3 .search-toggle-btn {
   width: 40px;
   height: 40px;
   line-height: 40px;
   text-align: center;
+  color: #fff;
 }
 
 @media (max-width: 1400px) {

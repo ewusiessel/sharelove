@@ -3,6 +3,7 @@ import Logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
 import HeaderTopbar from "../HeaderTopbar";
 import MobileMenu from "../../components/MobileMenu";
+import { BsSearch } from "react-icons/bs";
 import "./style.css";
 
 const Header = (props) => {
@@ -69,7 +70,7 @@ const Header = (props) => {
                   <div className="cart-search-contact">
                     <div className="header-search-form-wrapper">
                       <button className="search-toggle-btn">
-                        <i className="fi flaticon-magnifying-glass"></i>
+                        <BsSearch size={20} />
                       </button>
                       <div className="header-search-form">
                         <form onSubmit={SubmitHandler}>
