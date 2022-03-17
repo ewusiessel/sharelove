@@ -1,5 +1,6 @@
 import React from "react";
 import ModalVideo from "react-modal-video";
+import { RiPlayCircleLine } from "react-icons/ri";
 import "../../../node_modules/react-modal-video/scss/modal-video.scss";
 
 class VideoModal extends React.Component {
@@ -28,7 +29,9 @@ class VideoModal extends React.Component {
           <ul>
             <li>
               <button className="video-btn" onClick={this.openModal}>
-                <i className="fi flaticon-play-button" aria-hidden="true"></i>
+                <i className="video-btn">
+                  <RiPlayCircleLine size={70} />
+                </i>
               </button>
             </li>
           </ul>
