@@ -204,20 +204,17 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  color: #fff;
+  color: #c3bfbf;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   border: 0;
   background: none;
 }
+
+/* NOTE: video modal play button properties 👆; */
+
 .about-style-2 .video-btn:focus {
   outline: none;
-}
-
-.about-style-2 .video-btn .flaticon-play-button:before {
-  border: 10px solid rgba(253, 212, 45, 0.4);
-  border-radius: 50%;
-  background: rgba(253, 212, 45, 0.7);
 }
 
 @media (max-width: 991px) {
