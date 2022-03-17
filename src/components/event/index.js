@@ -1,4 +1,6 @@
 import React from "react";
+import { BsCalendarDate } from "react-icons/bs";
+import { AiOutlineFolderAdd } from "react-icons/ai";
 import event1 from "../../images/event/img-1.jpg";
 import event2 from "../../images/event/img-2.jpg";
 import event3 from "../../images/event/img-3.jpg";
@@ -28,12 +30,18 @@ const EventSection = (props) => {
                   <ul className="entry-meta">
                     <li>
                       <Link onClick={ClickHandler} to="/event-details">
-                        <i className="ti-calendar"></i> 20 sep 2018
+                        <i>
+                          <BsCalendarDate size={15} />
+                        </i>
+                        20 sep 2018
                       </Link>
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/event-details">
-                        <i className="ti-folder"></i> Education
+                        <i>
+                          <AiOutlineFolderAdd size={20} />
+                        </i>
+                        Education
                       </Link>
                     </li>
                   </ul>
@@ -52,12 +60,18 @@ const EventSection = (props) => {
                   <ul className="entry-meta">
                     <li>
                       <Link onClick={ClickHandler} to="/event-details">
-                        <i className="ti-calendar"></i> 20 sep 2018
+                        <i>
+                          <BsCalendarDate size={15} />
+                        </i>{" "}
+                        20 sep 2018
                       </Link>
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/event-details">
-                        <i className="ti-folder"></i> Food
+                        <i>
+                          <AiOutlineFolderAdd size={20} />
+                        </i>
+                        Food
                       </Link>
                     </li>
                   </ul>
@@ -76,12 +90,18 @@ const EventSection = (props) => {
                   <ul className="entry-meta">
                     <li>
                       <Link onClick={ClickHandler} to="/event-details">
-                        <i className="ti-calendar"></i> 20 sep 2018
+                        <i>
+                          <BsCalendarDate size={15} />
+                        </i>{" "}
+                        20 sep 2018
                       </Link>
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/event-details">
-                        <i className="ti-folder"></i> Treatment
+                        <i>
+                          <AiOutlineFolderAdd size={20} />
+                        </i>{" "}
+                        Treatment
                       </Link>
                     </li>
                   </ul>
