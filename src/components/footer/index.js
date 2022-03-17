@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import { BsTelephone, BsEnvelope } from "react-icons/bs";
+import { VscLocation } from "react-icons/vsc";
 import Logo from "../../images/logo.png";
 
 const Footer = (props) => {
@@ -109,14 +111,21 @@ const Footer = (props) => {
                   <div className="contact-ft">
                     <ul>
                       <li>
-                        <i className="fi flaticon-pin"></i>10 Westminster
-                        Street, London
+                        <i>
+                          <VscLocation size={22} />
+                        </i>
+                        10 Westminster Street, London
                       </li>
                       <li>
-                        <i className="fi flaticon-call"></i>0800 934 6779
+                        <i className="contact-ft">
+                          <BsTelephone />
+                        </i>
+                        0800 934 6779
                       </li>
                       <li>
-                        <i className="fi flaticon-envelope"></i>
+                        <i className="contact-ft">
+                          <BsEnvelope />
+                        </i>
                         sharelove@gmail.com
                       </li>
                     </ul>
