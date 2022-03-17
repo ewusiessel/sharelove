@@ -1,7 +1,7 @@
 /*==============================================
 #0.7 features-area
 ================================================*/
-.features-icon i.fi {
+.features-icon i.ri {
   background: #f5f5f5;
   padding: 57px 70px 30px 56px;
   transition: all 0.5s;
@@ -40,9 +40,6 @@ ul {
   background: #fdd42d;
 }
 
-.features-area .features-content p a:hover {
-  color: #199ca4;
-}
 
 .features-content h3 {
   color: #474350;
@@ -55,11 +52,10 @@ ul {
   color: #898888;
 }
 
-.features-area .features-icon i.fi {
+.features-area .features-icon i.ri {
   padding: 0;
   width: 100px;
   height: 90px;
-  /* background: #202120; */
   line-height: 85px;
   text-align: center;
   margin-right: 20px;
@@ -107,7 +103,7 @@ ul {
   flex-direction: column;
 }
 
-.features-area-2 .features-icon i.fi {
+.features-area-2 .features-icon i.ri {
   width: 100px;
   height: 100px;
   background: #e9ecef;

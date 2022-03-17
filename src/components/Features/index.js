@@ -1,4 +1,6 @@
 import React from "react";
+import { RiMedicineBottleLine } from "react-icons/ri";
+import { MdOutlineSchool, MdOutlineHouse } from "react-icons/md";
 import "./style.css";
 
 const Features = (props) => {
@@ -9,7 +11,9 @@ const Features = (props) => {
           <div className="col-lg-4 col-md-6 col-12">
             <div className="features-item-2">
               <div className="features-icon">
-                <i className="fi flaticon-salad"></i>
+                <i className="ri">
+                  <RiMedicineBottleLine size={45} />
+                </i>
               </div>
               <div className="features-content">
                 <p>Health For</p>
@@ -20,7 +24,9 @@ const Features = (props) => {
           <div className="col-lg-4 col-md-6 col-12">
             <div className="features-item-2">
               <div className="features-icon">
-                <i className="fi flaticon-school"></i>
+                <i className="ri">
+                  <MdOutlineSchool size={45} />
+                </i>
               </div>
               <div className="features-content">
                 <p>Get Free</p>
@@ -31,7 +37,9 @@ const Features = (props) => {
           <div className="col-lg-4 col-md-6 col-12">
             <div className="features-item-2">
               <div className="features-icon">
-                <i className="fi flaticon-medicine"></i>
+                <i className="ri">
+                  <MdOutlineHouse size={45} />
+                </i>
               </div>
               <div className="features-content">
                 <p>Get Free</p>
