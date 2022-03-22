@@ -1,6 +1,7 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./style.css";
+import { HiArrowSmUp } from "react-icons/hi";
 
 const Scrollbar = () => {
   return (
@@ -9,7 +10,7 @@ const Scrollbar = () => {
         <ul className="smothscroll">
           <li>
             <AnchorLink href="#scrool">
-              <i className="fa fa-arrow-up"></i>
+              <HiArrowSmUp size={30} />
             </AnchorLink>
           </li>
         </ul>
