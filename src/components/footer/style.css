@@ -1,6 +1,3 @@
-/*--------------------------------------------------------------
-#0.5  tp-footer
---------------------------------------------------------------*/
 .tp-site-footer,
 .tp-site-footer {
   background: #1e1e1e;
@@ -284,26 +281,6 @@
   color: #fff;
   text-decoration: underline;
 }
-
-/* .instagram ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0px -3px;
-}
-
-.instagram ul li {
-  -ms-flex: 0 0 33.33%;
-  flex: 0 0 33.33%;
-  max-width: 33.33%;
-  margin-bottom: 5px;
-  padding: 0px 3px;
-}
-
-.instagram ul li img {
-  width: 100%;
-} */
-
-/* TODO clean up code */
 
 @media (max-width: 1200px) {
   .tp-site-footer .news-text h3 {
