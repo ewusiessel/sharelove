@@ -26,10 +26,19 @@ const BlogSection = (props) => {
                   <img src={blog1} alt="" />
                 </div>
                 <div className="details">
-                  <h3>Best and less published their supplier lists.</h3>
+                  <h3>
+                    Recycling plastic bottles leach chemicals into drinking
+                    water.
+                  </h3>
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
+                    Researchers from Brunel University London found 150
+                    chemicals that leached into drinks from plastic bottles,
+                    with 18 of those chemicals found in levels exceeding
+                    regulations. And they found that drinks bottled using
+                    recycled Polyethylene Terephthalate (PET) can contained
+                    higher concentrations of chemicals than those bottled using
+                    new PET, which suggests that problems with the recycling
+                    process may be causing contamination.
                   </p>
                   <ul className="entry-meta">
                     <li>
@@ -48,10 +57,17 @@ const BlogSection = (props) => {
                   <img src={blog2} alt="" />
                 </div>
                 <div className="details">
-                  <h3>Best and less published their supplier lists.</h3>
+                  <h3>The Importance of Building a Well.</h3>
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
+                    Reliable access to safe, clean water means that drinking,
+                    cooking, washing, watering crops and animals no longer pose
+                    a risk of illness. It also means that women and children
+                    don’t have to walk for miles to collect often dirty water.
+                    The average distance that women and children walk to collect
+                    water in Africa and Asia is 3.7 miles, carrying around 20
+                    litres of water. A simple well gives the less fortunate a
+                    chance to break free from poverty and transform their lives
+                    for years to come.
                   </p>
                   <ul className="entry-meta">
                     <li>
@@ -70,10 +86,15 @@ const BlogSection = (props) => {
                   <img src={blog3} alt="" />
                 </div>
                 <div className="details">
-                  <h3>Best and less published their supplier lists.</h3>
+                  <h3>Giving forests the chance to regenerate naturally.</h3>
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
+                    By communities having a sustainable source of timber through
+                    our tree planting project means that they are able to now
+                    conserve existing forests with indigenous trees and allow
+                    natural regeneration to take place. Did you know? When trees
+                    are chopped down for the timber to be used in construction
+                    or furniture, the carbon can remain stored in the wood for
+                    centuries.
                   </p>
                   <ul className="entry-meta">
                     <li>
