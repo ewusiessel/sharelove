@@ -11,8 +11,8 @@ const CounterSection = (props) => {
               <div className="grid">
                 <div>
                   <h2>
-                    <span className="odometer" data-count="6200">
-                      6200
+                    <span className="odometer" data-count="">
+                      8900
                     </span>
                     +
                   </h2>
@@ -22,8 +22,8 @@ const CounterSection = (props) => {
               <div className="grid">
                 <div>
                   <h2>
-                    <span className="odometer" data-count="80">
-                      80
+                    <span className="odometer" data-count="">
+                      £100,000
                     </span>
                     +
                   </h2>
@@ -33,8 +33,8 @@ const CounterSection = (props) => {
               <div className="grid">
                 <div>
                   <h2>
-                    <span className="odometer" data-count="245">
-                      245
+                    <span className="odometer" data-count="">
+                      350
                     </span>
                     +
                   </h2>
