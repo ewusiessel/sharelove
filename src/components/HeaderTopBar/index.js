@@ -29,11 +29,6 @@ const HeaderTopbar = () => {
                 <li>
                   <Link to="/signup">Sign Up</Link>
                 </li>
-                <li>
-                  <Link className="theme-btn" to="/donate">
-                    Donate Now
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>

@@ -1,5 +1,3 @@
-/* ===================== HEADER ======================*/
-
 .logo {
   margin-top: 30px;
 }
@@ -48,14 +46,9 @@ nav ul li a {
   padding: 40px 25px;
 }
 
-/* nav ul li a:hover {
-  color: #fdd42d !important;
-} */
-
 nav ul li a:before {
   content: "";
   background: rgba(255, 255, 255, 0.1);
-  /* NOTE background box hover on header menu */
   width: 100%;
   height: 43px;
   position: absolute;
@@ -84,7 +77,6 @@ nav ul li a:hover,
 nav ul li a.active {
   color: #fff !important;
   text-decoration: none;
-  /* TODO resolve or ignore conflict with navigation menu hover and active colours*/
 }
 
 nav ul ul {
@@ -462,7 +454,6 @@ header.fixed .header-content {
 .header-style-2 .cart-search-contact -content -action,
 .header-style-3 .cart-search-contact -content -action {
   padding: 20px 0 30px;
-  border-top: 0.5px solid #c3bfbf; /* NOTE line in basket view drop download */
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -474,8 +465,8 @@ header.fixed .header-content {
   float: right;
 }
 
-.header-style-2 .cart-search-contact -content -action .mini-checkout-price,
-.header-style-3 .cart-search-contact -content -action .mini-checkout-price {
+.header-style-2 .cart-search-contact -content -action,
+.header-style-3 .cart-search-contact -content -action {
   font-size: 18px;
   font-size: 1.2rem;
   font-weight: 600;
