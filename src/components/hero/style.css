@@ -48,15 +48,6 @@
   transition: all 0.5s;
 }
 
-/* .hero .slick-prev:hover,
-.hero .slick-next:hover {
-  background-color: rgb(33, 33, 34, 0.7);
-} */
-
-/* TODO: hover opacity */
-
-/* NOTE: clean up */
-
 @media (max-width: 991px) {
   .hero .slick-prev,
   .hero .slick-next {
