@@ -16,8 +16,8 @@ const Features = (props) => {
                 </i>
               </div>
               <div className="features-content">
-                <p>Health For</p>
-                <h3>Healthy Food</h3>
+                <p>Medicine</p>
+                <h3>Medical Access</h3>
               </div>
             </div>
           </div>
@@ -29,8 +29,8 @@ const Features = (props) => {
                 </i>
               </div>
               <div className="features-content">
-                <p>Get Free</p>
-                <h3>Pure Education</h3>
+                <p>Basic Education</p>
+                <h3>Education</h3>
               </div>
             </div>
           </div>
@@ -42,8 +42,8 @@ const Features = (props) => {
                 </i>
               </div>
               <div className="features-content">
-                <p>Get Free</p>
-                <h3>Medical Facilities</h3>
+                <p> Housing Facilities</p>
+                <h3>Shelter</h3>
               </div>
             </div>
           </div>
